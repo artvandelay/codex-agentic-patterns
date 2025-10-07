@@ -5,6 +5,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)](https://openai.com/)
+[![Documentation](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://artvandelay.github.io/codex-agentic-patterns/)
+
+---
+
+## 🌐 **[📖 Read the Interactive Documentation →](https://artvandelay.github.io/codex-agentic-patterns/)**
+
+**Beautiful, searchable, mobile-friendly documentation with:**
+- ✨ **Interactive navigation** through all 21 patterns
+- 🔍 **Full-text search** across all content  
+- 📱 **Mobile responsive** design
+- 🌓 **Dark/light mode** toggle
+- 📊 **Progress tracking** through learning paths
 
 ---
 
@@ -26,13 +38,20 @@ The **Codex Agentic Patterns** is a comprehensive learning resource that teaches
 
 ## 🚀 Quick Start
 
+### 🌐 **Option 1: Browse Online (Recommended)**
+**[Visit the Interactive Documentation →](https://artvandelay.github.io/codex-agentic-patterns/)**
+
+No setup required! Browse all patterns, search content, and explore at your own pace.
+
+### 💻 **Option 2: Run Code Locally**
+
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/codex-agentic-patterns.git
+git clone https://github.com/artvandelay/codex-agentic-patterns.git
 cd codex-agentic-patterns
 
-# Navigate to learning materials
-cd learning-material
+# Navigate to learning materials  
+cd docs/learning-material
 
 # Set up environment
 export OPENAI_API_KEY="your-key-here"
@@ -43,7 +62,7 @@ cd 01-prompt-chaining
 python pattern_simple.py
 ```
 
-**🎉 That's it! You're learning production agentic patterns.**
+**🎉 Start learning production agentic patterns!**
 
 ---
 
@@ -155,20 +174,21 @@ This work builds upon:
 
 ## 📚 Learning Resources
 
-### 📖 Start Here
-- [**Main Learning Hub**](./learning-material/00-READ-ME-FIRST.md) - Your entry point
-- [**Quick Setup**](./learning-material/QUICKSTART.md) - Get running in 10 minutes
-- [**Complete Index**](./learning-material/INDEX.md) - Navigate all content
+### 🌐 **Interactive Documentation** (Start Here!)
+- **[Main Documentation Site](https://artvandelay.github.io/codex-agentic-patterns/)** - Beautiful, searchable interface
+- **[Getting Started Guide](https://artvandelay.github.io/codex-agentic-patterns/learning-material/00-READ-ME-FIRST/)** - Your entry point  
+- **[Quick Setup](https://artvandelay.github.io/codex-agentic-patterns/learning-material/QUICKSTART/)** - Get running in 10 minutes
+- **[Complete Index](https://artvandelay.github.io/codex-agentic-patterns/learning-material/INDEX/)** - Navigate all content
 
-### 🎯 Practice
-- [**11 Hands-on Exercises**](./learning-material/EXERCISES.md) - From beginner to expert
-- [**Pattern Implementations**](./learning-material/) - Runnable Python code
-- [**Complete Agent**](./learning-material/complete-agent-example/) - 500+ line production example
+### 🎯 Practice & Exercises  
+- **[11 Hands-on Exercises](https://artvandelay.github.io/codex-agentic-patterns/learning-material/EXERCISES/)** - From beginner to expert
+- **[Pattern Implementations](https://artvandelay.github.io/codex-agentic-patterns/learning-material/01-prompt-chaining/)** - Runnable Python code
+- **[Complete Agent Example](https://artvandelay.github.io/codex-agentic-patterns/learning-material/complete-agent-example/)** - 500+ line production example
 
-### 🔍 Deep Dive
-- [**Codex Analysis**](./learning-material/CODEX_PATTERNS_SUMMARY.md) - How production systems work
-- [**Advanced Patterns**](./learning-material/16-sandbox-escalation/) - Production complexity
-- [**Codex Source Code**](https://github.com/openai/codex) - Original Rust implementation
+### 🔍 Deep Analysis
+- **[Codex Patterns Analysis](https://artvandelay.github.io/codex-agentic-patterns/learning-material/CODEX_PATTERNS_SUMMARY/)** - How production systems work  
+- **[Advanced Patterns](https://artvandelay.github.io/codex-agentic-patterns/learning-material/16-sandbox-escalation/)** - Production complexity
+- **[Original Codex Source](https://github.com/openai/codex)** - Rust implementation
 
 ---
 
