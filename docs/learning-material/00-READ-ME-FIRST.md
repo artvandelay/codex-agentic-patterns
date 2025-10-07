@@ -18,10 +18,10 @@ This is a **comprehensive learning resource** for building intelligent AI agents
 → Open [`INDEX.md`](./INDEX.md)
 
 ### 🔴 Want Production Patterns?
-→ Open [`16-sandbox-escalation/`](./16-sandbox-escalation/) ⭐ **NEW!**
+→ Open [`16-sandbox-escalation/`](./16-sandbox-escalation/README.md) ⭐ **NEW!**
 
 ### 💻 Just Want Code?
-→ Open [`complete-agent-example/complete_agent.py`](./complete-agent-example/complete_agent.py)
+→ Open [`complete-agent-example/complete_agent.py`](./complete-agent-example/README.mdcomplete_agent.py)
 
 ---
 
@@ -88,10 +88,10 @@ I've added **3 sophisticated patterns** extracted from Codex's production codeba
 | **Understand the structure** | [`START_HERE.md`](./START_HERE.md) |
 | **Navigate all content** | [`INDEX.md`](./INDEX.md) |
 | **Learn basic patterns** | [`CODEX_PATTERNS_SUMMARY.md`](./CODEX_PATTERNS_SUMMARY.md) |
-| **Learn ADVANCED patterns** ⭐ | [`16-sandbox-escalation/`](./16-sandbox-escalation/) |
+| **Learn ADVANCED patterns** ⭐ | [`16-sandbox-escalation/`](./16-sandbox-escalation/README.md) |
 | **Practice coding** | [`EXERCISES.md`](./EXERCISES.md) |
 | **See directory layout** | [`STRUCTURE.md`](./STRUCTURE.md) |
-| **Study complete agent** | [`complete-agent-example/`](./complete-agent-example/) |
+| **Study complete agent** | [`complete-agent-example/`](./complete-agent-example/README.md) |
 
 ---
 
@@ -154,7 +154,7 @@ After completing these materials, you'll be able to:
 - 🟢 **New to agents?** → [`START_HERE.md`](./START_HERE.md)
 - 🟡 **Some experience?** → [`INDEX.md`](./INDEX.md)
 - 🔴 **Experienced?** → [`CODEX_PATTERNS_SUMMARY.md`](./CODEX_PATTERNS_SUMMARY.md)
-- 🔥 **Want production patterns?** → [`16-sandbox-escalation/`](./16-sandbox-escalation/) ⭐
+- 🔥 **Want production patterns?** → [`16-sandbox-escalation/`](./16-sandbox-escalation/README.md) ⭐
 
 ### Step 2: Set Up (5 minutes)
 ```bash
@@ -274,8 +274,8 @@ You'll know you've mastered the material when you can:
 1. 🟢 **Beginner** → [`START_HERE.md`](./START_HERE.md)
 2. 🟡 **Intermediate** → [`INDEX.md`](./INDEX.md)  
 3. 🔴 **Advanced** → [`CODEX_PATTERNS_SUMMARY.md`](./CODEX_PATTERNS_SUMMARY.md)
-4. 🔥 **Production** → [`16-sandbox-escalation/README.md`](./16-sandbox-escalation/README.md) ⭐
-5. 💻 **Just code** → [`complete-agent-example/complete_agent.py`](./complete-agent-example/complete_agent.py)
+4. 🔥 **Production** → [`16-sandbox-escalation/README.md`](./16-sandbox-escalation/README.mdREADME.md) ⭐
+5. 💻 **Just code** → [`complete-agent-example/complete_agent.py`](./complete-agent-example/README.mdcomplete_agent.py)
 
 ---
 

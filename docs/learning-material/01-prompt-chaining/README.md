@@ -149,5 +149,5 @@ See the example files:
 
 ---
 
-**Next**: [Pattern 2: Routing →](../02-routing/)
+**Next**: [Pattern 2: Routing →](../02-routing/README.mdREADME.md)
 

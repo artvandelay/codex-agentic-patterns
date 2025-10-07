@@ -314,7 +314,7 @@ You now have:
 → [CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md)
 
 ### Just Code
-→ [complete-agent-example/complete_agent.py](./complete-agent-example/complete_agent.py)
+→ [complete-agent-example/complete_agent.py](./complete-agent-example/README.mdcomplete_agent.py)
 
 ---
 

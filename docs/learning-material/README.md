@@ -152,5 +152,5 @@ Educational materials for learning purposes. See main Codex repository for licen
 
 ---
 
-**Ready to learn?** Start with [Pattern 1: Prompt Chaining](./01-prompt-chaining/)! 🚀
+**Ready to learn?** Start with [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)! 🚀
 

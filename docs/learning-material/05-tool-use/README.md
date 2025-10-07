@@ -224,5 +224,5 @@ See the example files:
 
 ---
 
-**Next**: [Pattern 8: Memory Management →](../08-memory-management/)
+**Next**: [Pattern 8: Memory Management →](../08-memory-management/README.mdREADME.md)
 

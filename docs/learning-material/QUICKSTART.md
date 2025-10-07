@@ -103,14 +103,14 @@ Choose your path based on your experience level:
 
 ### 🟢 Beginner Path (Week 1-2)
 
-**Day 1-2**: [Pattern 1: Prompt Chaining](./01-prompt-chaining/)
+**Day 1-2**: [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
 ```bash
 cd 01-prompt-chaining
 python pattern_simple.py    # Basic
 python pattern_advanced.py  # Advanced
 ```
 
-**Day 3-4**: [Pattern 5: Tool Use](./05-tool-use/)
+**Day 3-4**: [Pattern 5: Tool Use](./05-tool-use/README.md)
 ```bash
 cd 05-tool-use
 python pattern_simple.py
@@ -125,23 +125,23 @@ python pattern_simple.py
 
 ### 🟡 Intermediate Path (Week 2-3)
 
-**Day 1-2**: [Pattern 2: Routing](./02-routing/)
+**Day 1-2**: [Pattern 2: Routing](./02-routing/README.md)
 ```bash
 cd 02-routing
 python pattern_simple.py
 ```
 
-**Day 3-4**: [Pattern 8: Memory Management](./08-memory-management/)
+**Day 3-4**: [Pattern 8: Memory Management](./08-memory-management/README.md)
 
-**Day 5-7**: [Pattern 12: Exception Handling](./12-exception-handling/)
+**Day 5-7**: [Pattern 12: Exception Handling](./12-exception-handling/README.md)
 
 ### 🔴 Advanced Path (Week 3-4)
 
-**Day 1-2**: [Pattern 3: Parallelization](./03-parallelization/)
+**Day 1-2**: [Pattern 3: Parallelization](./03-parallelization/README.md)
 
-**Day 3-4**: [Pattern 18: Guardrails/Safety](./18-guardrails-safety/)
+**Day 3-4**: [Pattern 18: Guardrails/Safety](./18-guardrails-safety/README.md)
 
-**Day 5-7**: [Complete Agent Example](./complete-agent-example/)
+**Day 5-7**: [Complete Agent Example](./complete-agent-example/README.md)
 
 ---
 
@@ -369,7 +369,7 @@ If you checked all boxes, you're ready to dive deeper! 🎉
 
 ---
 
-**Ready?** Start with [Pattern 1: Prompt Chaining →](./01-prompt-chaining/)
+**Ready?** Start with [Pattern 1: Prompt Chaining →](./01-prompt-chaining/README.md)
 
 Happy Learning! 🎓
 

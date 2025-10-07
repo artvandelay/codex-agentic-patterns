@@ -466,5 +466,5 @@ Use Codex as a reference implementation when building your own agentic systems. 
 
 ---
 
-**Ready to build your own agent?** Start with the [Complete Agent Example](./complete-agent-example/) to see these patterns in action! 🚀
+**Ready to build your own agent?** Start with the [Complete Agent Example](./complete-agent-example/README.md) to see these patterns in action! 🚀
 

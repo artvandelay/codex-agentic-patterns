@@ -148,5 +148,5 @@ See the example files:
 
 ---
 
-**Next**: [Pattern 3: Parallelization →](../03-parallelization/)
+**Next**: [Pattern 3: Parallelization →](../03-parallelization/README.mdREADME.md)
 

@@ -152,7 +152,7 @@ DESTINATION: Build Production Agents! 🎉
 - **Yes** → Go to Q2
 
 ### Q2: Have you used function calling / tools?
-- **No** → Start with 🟡 [05-tool-use/](./05-tool-use/)
+- **No** → Start with 🟡 [05-tool-use/](./05-tool-use/README.md)
 - **Yes** → Go to Q3
 
 ### Q3: Have you built production agents?
@@ -348,7 +348,7 @@ A: Beginner: 1-2 weeks | Intermediate: 2-3 weeks | Advanced: 4-6 weeks
 | 🟢 **Beginner** | [QUICKSTART.md](./QUICKSTART.md) | 10 min | Get running |
 | 🟡 **Intermediate** | [INDEX.md](./INDEX.md) | 20 min | Navigate content |
 | 🔴 **Advanced** | [CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md) | 30 min | Deep analysis |
-| 💻 **Just Code** | [complete-agent-example/complete_agent.py](./complete-agent-example/complete_agent.py) | 2 hours | Study implementation |
+| 💻 **Just Code** | [complete-agent-example/complete_agent.py](./complete-agent-example/README.mdcomplete_agent.py) | 2 hours | Study implementation |
 
 ---
 
@@ -428,7 +428,7 @@ So what are you waiting for?
 | **Reference** | [CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md) |
 | **Structure** | [STRUCTURE.md](./STRUCTURE.md) |
 | **Summary** | [FINAL_SUMMARY.md](./FINAL_SUMMARY.md) |
-| **Code** | [complete-agent-example/](./complete-agent-example/) |
+| **Code** | [complete-agent-example/](./complete-agent-example/README.md) |
 
 ---
 
