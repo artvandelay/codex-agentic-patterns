@@ -18,7 +18,9 @@ flake.nix
 .codespellignore
 .codespellrc
 .devcontainer/
-.github/
+# Note: .github/workflows/ is needed for GitHub Actions
+.github/*
+!.github/workflows/
 .npmrc
 .prettierignore
 .prettierrc.toml
