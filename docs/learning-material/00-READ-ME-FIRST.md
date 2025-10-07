@@ -222,7 +222,7 @@ Follow your chosen learning path from Step 1.
 ## 📂 Directory Overview
 
 ```
-learning-material/
+docs/learning-material/
 ├── 00-READ-ME-FIRST.md          ← You are here
 ├── START_HERE.md                ← Main entry point
 ├── QUICKSTART.md                ← Fast setup

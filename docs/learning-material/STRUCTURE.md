@@ -5,7 +5,7 @@
 ## 🗂️ Directory Tree
 
 ```
-learning-material/
+docs/learning-material/
 │
 ├── 📄 README.md                          ⭐ START HERE
 ├── 📄 QUICKSTART.md                      ⚡ Quick setup

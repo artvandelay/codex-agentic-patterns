@@ -6,10 +6,10 @@ This site contains the complete learning materials for building production-ready
 
 ## 🚀 Quick Navigation
 
-- **[Start Here](learning-material/00-READ-ME-FIRST.md)** - Your entry point to learning agentic patterns
-- **[Quick Start](learning-material/QUICKSTART.md)** - Get up and running in 10 minutes  
-- **[Complete Index](learning-material/INDEX.md)** - Navigate all learning materials
-- **[Exercises](learning-material/EXERCISES.md)** - Hands-on practice
+- **[Start Here](learning-material/00-READ-ME-FIRST/)** - Your entry point to learning agentic patterns
+- **[Quick Start](learning-material/QUICKSTART/)** - Get up and running quickly  
+- **[Complete Index](learning-material/INDEX/)** - Navigate all learning materials
+- **[Exercises](learning-material/EXERCISES/)** - Hands-on practice
 
 ## 📖 About This Resource
 
@@ -34,5 +34,5 @@ This work builds upon:
 
 ## 🚀 Get Started
 
-Ready to learn? Head to the **[learning materials](learning-material/00-READ-ME-FIRST.md)** to begin your journey!
+Ready to learn? Head to the **[learning materials](learning-material/00-READ-ME-FIRST/)** to begin your journey!
 <!-- Trigger rebuild -->
