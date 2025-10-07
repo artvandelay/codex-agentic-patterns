@@ -17,7 +17,7 @@
 |---|------|------|---------|
 | 1 | `README.md` | 5.0K | Main overview |
 | 2 | `START_HERE.md` | 12K | Entry point guide |
-| 3 | `QUICKSTART.md` | 7.7K | 10-minute setup |
+| 3 | `QUICKSTART.md` | 7.7K | Quick setup |
 | 4 | `INDEX.md` | 12K | Complete navigation |
 | 5 | `EXERCISES.md` | 11K | Practice exercises |
 | 6 | `CODEX_PATTERNS_SUMMARY.md` | 14K | Pattern analysis |
@@ -79,7 +79,7 @@
 
 ### ✅ Comprehensive Learning Path
 - Beginner to Expert progression
-- 1-2 weeks to 4-6 weeks tracks
+- Multiple learning paths
 - Clear milestones and checkpoints
 
 ### ✅ Production-Ready Examples
@@ -117,8 +117,6 @@
 ### Content Metrics
 - **Words**: ~20,000
 - **Pages (estimated)**: ~80
-- **Reading Time**: ~3-4 hours
-- **Coding Time**: ~40-60 hours
 
 ### Learning Metrics
 - **Patterns Covered**: 21/21 (100%)
@@ -284,12 +282,12 @@ Textbook → Learning Materials → Codex Source
 
 ### Entry Points by Level
 
-| Level | File | Time |
-|-------|------|------|
-| Absolute Beginner | `QUICKSTART.md` | 10 min |
-| Some Experience | `INDEX.md` | 20 min |
-| Experienced Dev | `CODEX_PATTERNS_SUMMARY.md` | 30 min |
-| Just Show Code | `complete-agent-example/complete_agent.py` | 2 hours |
+| Level | File | Purpose |
+|-------|------|---------|
+| Absolute Beginner | `QUICKSTART.md` | Quick start |
+| Some Experience | `INDEX.md` | Full guide |
+| Experienced Dev | `CODEX_PATTERNS_SUMMARY.md` | Analysis |
+| Just Show Code | `complete-agent-example/complete_agent.py` | Implementation |
 
 ### Key Documents
 
@@ -366,8 +364,6 @@ Patterns with Code:      9/21 (43%)
 Total Lines:             5,762+
 Total Words:             ~20,000
 Estimated Pages:         ~80
-Reading Time:            3-4 hours
-Learning Time:           40-60 hours
 Exercises:               11
 Challenge Projects:      3
 Learning Paths:          4 (Beginner to Expert)
