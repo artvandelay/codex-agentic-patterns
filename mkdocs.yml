@@ -1,0 +1,93 @@
+site_name: Codex Agentic Patterns
+site_description: Learn to build production-ready AI agents through real-world patterns extracted from OpenAI's Codex CLI
+site_url: https://your-username.github.io/codex-agentic-patterns/
+repo_url: https://github.com/your-username/codex-agentic-patterns
+repo_name: codex-agentic-patterns
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - "📖 Start Here": learning-material/00-READ-ME-FIRST.md
+    - "⚡ Quick Start": learning-material/QUICKSTART.md
+    - "📚 Complete Index": learning-material/INDEX.md
+    - "🎯 Exercises": learning-material/EXERCISES.md
+  - Core Patterns:
+    - "Pattern 1: Prompt Chaining": learning-material/01-prompt-chaining/README.md
+    - "Pattern 2: Routing": learning-material/02-routing/README.md
+    - "Pattern 3: Parallelization": learning-material/03-parallelization/README.md
+    - "Pattern 5: Tool Use": learning-material/05-tool-use/README.md
+  - Advanced Patterns:
+    - "Pattern 16: Sandbox Escalation": learning-material/16-sandbox-escalation/README.md
+    - "Pattern 17: Turn Diff Tracking": learning-material/17-turn-diff-tracking/README.md
+    - "Pattern 18: Rollout System": learning-material/18-rollout-system/README.md
+  - Complete Agent:
+    - "🏆 Complete Agent": learning-material/complete-agent-example/README.md
+  - Analysis:
+    - "📊 Codex Patterns Summary": learning-material/CODEX_PATTERNS_SUMMARY.md
+    - "📁 Directory Structure": learning-material/STRUCTURE.md
+  - About:
+    - "📋 Final Summary": learning-material/FINAL_SUMMARY.md
+    - "✅ Completion Report": learning-material/COMPLETION_REPORT.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/codex-agentic-patterns
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-username
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
+
+copyright: |
+  Copyright &copy; 2025 Codex Agentic Patterns Contributors<br>
+  Built with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a> • 
+  Powered by <a href="https://cursor.sh/" target="_blank">Cursor</a> • 
+  Based on <a href="https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview" target="_blank">Agentic Design Patterns</a>

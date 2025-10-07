@@ -1,0 +1,99 @@
+# GitHub Repository Setup
+
+# Codex source code (we link to the original repo instead)
+codex-rs/
+codex-cli/
+sdk/
+scripts/
+cliff.toml
+AGENTS.md
+CHANGELOG.md
+NOTICE
+PNPM.md
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+flake.lock
+flake.nix
+.codespellignore
+.codespellrc
+.devcontainer/
+.github/
+.npmrc
+.prettierignore
+.prettierrc.toml
+.vscode/
+CLEAN_REPO_GUIDE.md
+
+# Standard exclusions
+node_modules/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MkDocs
+site/
+.mkdocs_cache/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+temp/
+
+# API Keys (security)
+.env
+*.env
+.env.local
+.env.*.local
+config.json
+secrets.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor backups
+*~
+*.bak
+*.orig
