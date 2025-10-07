@@ -176,8 +176,9 @@ extra:
     Python: python
     Production: production
     Advanced: advanced
-  extra_javascript:
-    - javascripts/analytics.js
+
+extra_javascript:
+  - javascripts/analytics.js
 
 copyright: |
   Copyright &copy; 2025 Codex Agentic Patterns Contributors<br>
