@@ -67,15 +67,15 @@ By completing these materials, you will:
 
 ### 📖 Documentation (5,762+ lines)
 
-| File | Purpose | Time | Difficulty |
+| File | Purpose  Difficulty |
 |------|---------|------|------------|
-| **[README.md](./README.md)** | Main overview | 10 min | 🟢 |
-| **[QUICKSTART.md](./QUICKSTART.md)** | 10-min setup | 10 min | 🟢 |
-| **[INDEX.md](./INDEX.md)** | Complete guide | 20 min | 🟡 |
-| **[EXERCISES.md](./EXERCISES.md)** | 11 exercises | varies | 🟢-🔴 |
-| **[CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md)** | Pattern analysis | 30 min | 🔴 |
-| **[STRUCTURE.md](./STRUCTURE.md)** | Directory guide | 5 min | 🟢 |
-| **[FINAL_SUMMARY.md](./FINAL_SUMMARY.md)** | What we built | 10 min | 🟢 |
+| **[README.md](./README.md)** | Main overview  🟢 |
+| **[QUICKSTART.md](./QUICKSTART.md)** | 10-min setup  🟢 |
+| **[INDEX.md](./INDEX.md)** | Complete guide  🟡 |
+| **[EXERCISES.md](./EXERCISES.md)**  varies | 🟢-🔴 |
+| **[CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md)** | Pattern analysis  🔴 |
+| **[STRUCTURE.md](./STRUCTURE.md)** | Directory guide  🟢 |
+| **[FINAL_SUMMARY.md](./FINAL_SUMMARY.md)** | What we built  🟢 |
 
 ### 💻 Code Examples (1,750+ lines)
 
@@ -161,36 +161,6 @@ DESTINATION: Build Production Agents! 🎉
 
 ---
 
-## 🎓 Learning Time Estimates
-
-### Beginner Track
-- **Setup**: 10 minutes
-- **Pattern 1**: 2 hours
-- **Pattern 5**: 2 hours
-- **Exercises**: 2 hours
-- **Total**: ~6-8 hours over 1-2 weeks
-
-### Intermediate Track
-- **Review beginner**: 1 hour
-- **Patterns 2, 8, 12**: 6 hours
-- **Exercises**: 4 hours
-- **Mini-agent**: 4 hours
-- **Total**: ~15-20 hours over 2-3 weeks
-
-### Advanced Track
-- **Review intermediate**: 2 hours
-- **Patterns 3, 18**: 4 hours
-- **Complete agent study**: 4 hours
-- **Build project**: 10 hours
-- **Total**: ~20-30 hours over 3-4 weeks
-
-### Expert Track
-- **Codex source dive**: 10 hours
-- **Challenge project**: 20 hours
-- **Contribute back**: 5 hours
-- **Total**: ~35+ hours ongoing
-
----
 
 ## 📊 What Makes This Special?
 
@@ -343,12 +313,12 @@ A: Beginner: 1-2 weeks | Intermediate: 2-3 weeks | Advanced: 4-6 weeks
 
 ### Choose Your Entry Point
 
-| Level | Start Here | Time | Goal |
+| Level | Start Here  Goal |
 |-------|------------|------|------|
-| 🟢 **Beginner** | [QUICKSTART.md](./QUICKSTART.md) | 10 min | Get running |
-| 🟡 **Intermediate** | [INDEX.md](./INDEX.md) | 20 min | Navigate content |
-| 🔴 **Advanced** | [CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md) | 30 min | Deep analysis |
-| 💻 **Just Code** | [complete-agent-example/complete_agent.py](./complete-agent-example/README.mdcomplete_agent.py) | 2 hours | Study implementation |
+| 🟢 **Beginner** | [QUICKSTART.md](./QUICKSTART.md)  Get running |
+| 🟡 **Intermediate** | [INDEX.md](./INDEX.md)  Navigate content |
+| 🔴 **Advanced** | [CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md)  Deep analysis |
+| 💻 **Just Code** | [complete-agent-example/complete_agent.py](./complete-agent-example/README.mdcomplete_agent.py)  Study implementation |
 
 ---
 

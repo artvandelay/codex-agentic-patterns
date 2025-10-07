@@ -100,7 +100,6 @@ Build Your Own
 #### 1. Prompt Chaining ⭐⭐⭐⭐⭐
 - **Folder**: `01-prompt-chaining/`
 - **Difficulty**: ⭐ Beginner
-- **Time**: 2-3 hours
 - **Files**:
   - `README.md` - Pattern explanation
   - `pattern_simple.py` - Basic chain
@@ -119,7 +118,6 @@ Build Your Own
 #### 2. Routing ⭐⭐⭐⭐⭐
 - **Folder**: `02-routing/`
 - **Difficulty**: ⭐⭐ Intermediate
-- **Time**: 3-4 hours
 - **Files**:
   - `README.md` - Pattern explanation
   - `pattern_simple.py` - Basic routing
@@ -138,7 +136,6 @@ Build Your Own
 #### 5. Tool Use ⭐⭐⭐⭐⭐
 - **Folder**: `05-tool-use/`
 - **Difficulty**: ⭐⭐ Intermediate
-- **Time**: 4-5 hours
 - **Files**:
   - `README.md` - Pattern explanation
   - `pattern_simple.py` - Basic tools
@@ -158,7 +155,6 @@ Build Your Own
 #### 8. Memory Management ⭐⭐⭐⭐⭐
 - **Folder**: `08-memory-management/`
 - **Difficulty**: ⭐⭐ Intermediate
-- **Time**: 3-4 hours
 
 **What You'll Learn:**
 - Conversation state
@@ -173,7 +169,6 @@ Build Your Own
 #### 12. Exception Handling ⭐⭐⭐⭐⭐
 - **Folder**: `12-exception-handling/`
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Time**: 3-4 hours
 
 **What You'll Learn:**
 - Retry logic
@@ -188,7 +183,6 @@ Build Your Own
 #### 13. Human-in-the-Loop ⭐⭐⭐⭐⭐
 - **Folder**: `13-human-in-the-loop/`
 - **Difficulty**: ⭐⭐⭐ Advanced
-- **Time**: 4-5 hours
 
 **What You'll Learn:**
 - Approval workflows
@@ -203,7 +197,6 @@ Build Your Own
 #### 18. Guardrails/Safety ⭐⭐⭐⭐⭐
 - **Folder**: Analysis in CODEX_PATTERNS_SUMMARY.md
 - **Difficulty**: ⭐⭐⭐⭐ Expert
-- **Time**: 6-8 hours
 
 **What You'll Learn:**
 - Multi-layer security
@@ -249,7 +242,7 @@ The crown jewel of these learning materials. A production-ready agent implementa
 6. ✅ Human-in-the-Loop - Approvals
 7. ✅ Guardrails - Safety checks
 
-**Time to Study**: 8-10 hours
+
 **Difficulty**: ⭐⭐⭐⭐ Expert
 
 ---
@@ -404,7 +397,6 @@ python -c "import os; print('API Key:', 'SET' if os.getenv('OPENAI_API_KEY') els
 2. Add validation step after recommendations
 3. Test with different inputs
 
-**Time**: 30 minutes
 **Difficulty**: ⭐ Beginner
 
 ---
@@ -418,7 +410,6 @@ python -c "import os; print('API Key:', 'SET' if os.getenv('OPENAI_API_KEY') els
 3. Update tool specs
 4. Test tool invocation
 
-**Time**: 1 hour
 **Difficulty**: ⭐⭐ Intermediate
 
 ---
@@ -432,7 +423,6 @@ python -c "import os; print('API Key:', 'SET' if os.getenv('OPENAI_API_KEY') els
 3. Update SafetyChecker logic
 4. Test with different scenarios
 
-**Time**: 2 hours
 **Difficulty**: ⭐⭐⭐ Advanced
 
 ---
@@ -446,7 +436,6 @@ python -c "import os; print('API Key:', 'SET' if os.getenv('OPENAI_API_KEY') els
 3. Add 3-5 domain-specific tools
 4. Test end-to-end workflow
 
-**Time**: 8-10 hours
 **Difficulty**: ⭐⭐⭐⭐ Expert
 
 ---

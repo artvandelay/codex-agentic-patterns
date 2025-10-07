@@ -101,47 +101,47 @@ python complete_agent.py   # Run complete agent
 
 Choose your path based on your experience level:
 
-### 🟢 Beginner Path (Week 1-2)
+### 🟢 Beginner Path
 
-**Day 1-2**: [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
+[Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
 ```bash
 cd 01-prompt-chaining
 python pattern_simple.py    # Basic
 python pattern_advanced.py  # Advanced
 ```
 
-**Day 3-4**: [Pattern 5: Tool Use](./05-tool-use/README.md)
+[Pattern 5: Tool Use](./05-tool-use/README.md)
 ```bash
 cd 05-tool-use
 python pattern_simple.py
 ```
 
-**Day 5-7**: Build your own simple agent
+Build your own simple agent
 ```python
 # Combine patterns 1 and 5
 # Create a research assistant
 # Add 2-3 custom tools
 ```
 
-### 🟡 Intermediate Path (Week 2-3)
+### 🟡 Intermediate Path
 
-**Day 1-2**: [Pattern 2: Routing](./02-routing/README.md)
+[Pattern 2: Routing](./02-routing/README.md)
 ```bash
 cd 02-routing
 python pattern_simple.py
 ```
 
-**Day 3-4**: [Pattern 8: Memory Management](./08-memory-management/README.md)
+[Pattern 8: Memory Management](./08-memory-management/README.md)
 
-**Day 5-7**: [Pattern 12: Exception Handling](./12-exception-handling/README.md)
+[Pattern 12: Exception Handling](./12-exception-handling/README.md)
 
-### 🔴 Advanced Path (Week 3-4)
+### 🔴 Advanced Path
 
-**Day 1-2**: [Pattern 3: Parallelization](./03-parallelization/README.md)
+[Pattern 3: Parallelization](./03-parallelization/README.md)
 
-**Day 3-4**: [Pattern 18: Guardrails/Safety](./18-guardrails-safety/README.md)
+[Pattern 18: Guardrails/Safety](./18-guardrails-safety/README.md)
 
-**Day 5-7**: [Complete Agent Example](./complete-agent-example/README.md)
+[Complete Agent Example](./complete-agent-example/README.md)
 
 ---
 
@@ -270,7 +270,7 @@ python -m 01-prompt-chaining.pattern_simple
 
 1. ✅ **Read the Patterns Summary**
    - File: `CODEX_PATTERNS_SUMMARY.md`
-   - Time: 30 minutes
+   - 
    - Understand all 21 patterns
 
 2. ✅ **Study Codex Source Code**
@@ -293,7 +293,7 @@ python -m 01-prompt-chaining.pattern_simple
 ## 🎯 Practice Projects
 
 ### Project 1: Research Assistant (Beginner)
-**Time**: 2-3 hours  
+  
 **Patterns**: 1, 5, 8
 
 Build an agent that:
@@ -302,7 +302,7 @@ Build an agent that:
 - Saves research notes
 
 ### Project 2: Code Reviewer (Intermediate)
-**Time**: 4-6 hours  
+  
 **Patterns**: 1, 2, 5, 8, 12
 
 Build an agent that:
@@ -312,7 +312,7 @@ Build an agent that:
 - Generates test cases
 
 ### Project 3: Data Analyst (Advanced)
-**Time**: 8-10 hours  
+  
 **Patterns**: 1, 2, 3, 5, 8, 12, 13
 
 Build an agent that:
@@ -375,7 +375,7 @@ Happy Learning! 🎓
 
 ---
 
-**Estimated Time to Competency:**
+
 - Basic Understanding: 1 week
 - Intermediate Skills: 2-3 weeks  
 - Advanced Mastery: 4-6 weeks
