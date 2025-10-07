@@ -406,17 +406,17 @@ Benefits:
 
 ## 📚 Learning Path Recommendations
 
-### Beginner (Weeks 1-2)
+### Beginner
 1. Study **Pattern 1: Prompt Chaining** - understand turn flow
 2. Explore **Pattern 8: Memory Management** - state handling
 3. Implement **Pattern 5: Tool Use** - external integration
 
-### Intermediate (Weeks 3-4)
+### Intermediate
 4. Master **Pattern 2: Routing** - decision logic
 5. Learn **Pattern 12: Exception Handling** - resilience
 6. Study **Pattern 13: Human-in-the-Loop** - control mechanisms
 
-### Advanced (Weeks 5-6)
+### Advanced
 7. Deep dive **Pattern 18: Guardrails/Safety** - security
 8. Understand **Pattern 3: Parallelization** - performance
 9. Integrate **Pattern 10: MCP** - extensibility
