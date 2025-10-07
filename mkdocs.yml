@@ -111,6 +111,12 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Link validation settings
+validation:
+  links:
+    not_found: warn
+    absolute_links: warn
+
 nav:
   - Home: index.md
   - Getting Started:
@@ -137,6 +143,8 @@ nav:
     - "Pattern 13: Human-in-the-Loop": learning-material/13-human-in-the-loop/README.md
     - "Pattern 14: Knowledge Retrieval": learning-material/14-knowledge-retrieval/README.md
     - "Pattern 15: Reasoning": learning-material/15-reasoning/README.md
+    - "Pattern 19: Inter-Agent Communication": learning-material/19-inter-agent-communication/README.md
+    - "Pattern 20: Evaluation and Monitoring": learning-material/20-evaluation-monitoring/README.md
   - Complete Agent:
     - "🏆 Complete Agent": learning-material/complete-agent-example/README.md
   - Analysis & Summary:
@@ -144,6 +152,8 @@ nav:
     - "📁 Directory Structure": learning-material/STRUCTURE.md
     - "📋 Final Summary": learning-material/FINAL_SUMMARY.md
     - "✅ Completion Report": learning-material/COMPLETION_REPORT.md
+    - "Exercises": learning-material/EXERCISES.md
+    - "Module Overview": learning-material/README.md
 
 extra:
   homepage: https://artvandelay.github.io/codex-agentic-patterns/
@@ -166,6 +176,8 @@ extra:
     Python: python
     Production: production
     Advanced: advanced
+  extra_javascript:
+    - javascripts/analytics.js
 
 copyright: |
   Copyright &copy; 2025 Codex Agentic Patterns Contributors<br>
