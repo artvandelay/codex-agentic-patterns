@@ -216,4 +216,4 @@ Key classes:
 
 ---
 
-**Next**: [Pattern 17: Turn Diff Tracking →](../17-turn-diff-tracking/README.mdREADME.md)
+**Next**: [Pattern 17: Turn Diff Tracking →](../17-turn-diff-tracking/README.md)

@@ -274,7 +274,7 @@ You'll know you've mastered the material when you can:
 1. 🟢 **Beginner** → [`START_HERE.md`](./START_HERE.md)
 2. 🟡 **Intermediate** → [`INDEX.md`](./INDEX.md)  
 3. 🔴 **Advanced** → [`CODEX_PATTERNS_SUMMARY.md`](./CODEX_PATTERNS_SUMMARY.md)
-4. 🔥 **Production** → [`16-sandbox-escalation/README.md`](./16-sandbox-escalation/README.mdREADME.md) ⭐
+4. 🔥 **Production** → [`16-sandbox-escalation/README.md`](./16-sandbox-escalation/README.md) ⭐
 5. 💻 **Just code** → [`complete-agent-example/complete_agent.py`](./complete-agent-example/README.mdcomplete_agent.py)
 
 ---

@@ -8,7 +8,7 @@
 |----------|-------------|-------|
 | **[README](./README.md)** | Overview and getting started | Beginner |
 | **[Pattern Summary](./CODEX_PATTERNS_SUMMARY.md)** | Comprehensive pattern analysis | All Levels |
-| **[Complete Agent](./complete-agent-example/README.mdREADME.md)** | Production-ready implementation | Advanced |
+| **[Complete Agent](./complete-agent-example/README.md)** | Production-ready implementation | Advanced |
 
 ---
 
@@ -18,17 +18,17 @@
 
 **Week 1: Fundamentals**
 ```
-Day 1-2: [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.mdREADME.md)
+Day 1-2: [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
          → Run pattern_simple.py
          → Read Codex examples in README
          → Experiment with pattern_advanced.py
 
-Day 3-4: [Pattern 5: Tool Use](./05-tool-use/README.mdREADME.md)
+Day 3-4: [Pattern 5: Tool Use](./05-tool-use/README.md)
          → Understand function calling
          → Explore safety mechanisms
          → Build your own tool
 
-Day 5-7: [Pattern 8: Memory Management](./08-memory-management/README.mdREADME.md)
+Day 5-7: [Pattern 8: Memory Management](./08-memory-management/README.md)
          → Study conversation history
          → Implement state persistence
          → Practice session management
@@ -36,17 +36,17 @@ Day 5-7: [Pattern 8: Memory Management](./08-memory-management/README.mdREADME.m
 
 **Week 2: Intermediate Patterns**
 ```
-Day 1-2: [Pattern 2: Routing](./02-routing/README.mdREADME.md)
+Day 1-2: [Pattern 2: Routing](./02-routing/README.md)
          → Classification and dispatch
          → Build a tool router
          → Dynamic handler registration
 
-Day 3-5: [Pattern 12: Exception Handling](./12-exception-handling/README.mdREADME.md)
+Day 3-5: [Pattern 12: Exception Handling](./12-exception-handling/README.md)
          → Retry logic with backoff
          → Error recovery strategies
          → Graceful degradation
 
-Day 6-7: [Pattern 13: Human-in-the-Loop](./13-human-in-the-loop/README.mdREADME.md)
+Day 6-7: [Pattern 13: Human-in-the-Loop](./13-human-in-the-loop/README.md)
          → Approval workflows
          → Policy systems
          → User control patterns
@@ -54,7 +54,7 @@ Day 6-7: [Pattern 13: Human-in-the-Loop](./13-human-in-the-loop/README.mdREADME.
 
 **Week 3: Integration**
 ```
-Day 1-7: [Complete Agent Example](./complete-agent-example/README.mdREADME.md)
+Day 1-7: [Complete Agent Example](./complete-agent-example/README.md)
          → Study complete_agent.py
          → Run example scenarios
          → Modify and extend
