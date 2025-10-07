@@ -70,21 +70,21 @@ python pattern_simple.py
 
 ### 🟢 Beginner (1-2 weeks)
 Start here if you're new to AI agents:
-- [**Quick Start Guide**](./learning-material/QUICKSTART.md) ⚡
-- [**Pattern 1: Prompt Chaining**](./learning-material/01-prompt-chaining/) 
-- [**Pattern 5: Tool Use**](./learning-material/05-tool-use/)
+- [**Quick Start Guide**](./doc./docs/learning-material/QUICKSTART.md) ⚡
+- [**Pattern 1: Prompt Chaining**](./docs/learning-material/01-prompt-chaining/) 
+- [**Pattern 5: Tool Use**](./docs/learning-material/05-tool-use/)
 
 ### 🟡 Intermediate (2-3 weeks)  
 For developers with some AI experience:
-- [**Complete Navigation**](./learning-material/INDEX.md) 📚
-- [**Pattern 2: Routing**](./learning-material/02-routing/)
-- [**Memory & State Management**](./learning-material/08-memory-management/)
+- [**Complete Navigation**](./docs/learning-material/INDEX.md) 📚
+- [**Pattern 2: Routing**](./docs/learning-material/02-routing/)
+- [**Memory & State Management**](./docs/learning-material/08-memory-management/)
 
 ### 🔴 Advanced (3-4 weeks)
 For experienced developers wanting production patterns:
-- [**Codex Patterns Analysis**](./learning-material/CODEX_PATTERNS_SUMMARY.md) 📊
-- [**Advanced Sandbox Escalation**](./learning-material/16-sandbox-escalation/) ⭐
-- [**Complete Agent Example**](./learning-material/complete-agent-example/)
+- [**Codex Patterns Analysis**](./docs/learning-material/CODEX_PATTERNS_SUMMARY.md) 📊
+- [**Advanced Sandbox Escalation**](./docs/learning-material/16-sandbox-escalation/) ⭐
+- [**Complete Agent Example**](./docs/learning-material/complete-agent-example/)
 
 ---
 
@@ -94,7 +94,7 @@ For experienced developers wanting production patterns:
 
 ```
 codex-agentic-patterns/
-├── learning-material/           🎓 Your learning journey starts here
+├── docs/learning-material/      🎓 Your learning journey starts here
 │   ├── 01-prompt-chaining/      ✅ Sequential workflows  
 │   ├── 02-routing/              ✅ Dynamic dispatch
 │   ├── 03-parallelization/      ✅ Concurrent execution
@@ -176,18 +176,18 @@ This work builds upon:
 
 ### 🌐 **Interactive Documentation** (Start Here!)
 - **[Main Documentation Site](https://artvandelay.github.io/codex-agentic-patterns/)** - Beautiful, searchable interface
-- **[Getting Started Guide](https://artvandelay.github.io/codex-agentic-patterns/learning-material/00-READ-ME-FIRST/)** - Your entry point  
-- **[Quick Setup](https://artvandelay.github.io/codex-agentic-patterns/learning-material/QUICKSTART/)** - Get running in 10 minutes
-- **[Complete Index](https://artvandelay.github.io/codex-agentic-patterns/learning-material/INDEX/)** - Navigate all content
+- **[Getting Started Guide](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/00-READ-ME-FIRST/)** - Your entry point  
+- **[Quick Setup](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/QUICKSTART/)** - Get running in 10 minutes
+- **[Complete Index](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/INDEX/)** - Navigate all content
 
 ### 🎯 Practice & Exercises  
-- **[11 Hands-on Exercises](https://artvandelay.github.io/codex-agentic-patterns/learning-material/EXERCISES/)** - From beginner to expert
-- **[Pattern Implementations](https://artvandelay.github.io/codex-agentic-patterns/learning-material/01-prompt-chaining/)** - Runnable Python code
-- **[Complete Agent Example](https://artvandelay.github.io/codex-agentic-patterns/learning-material/complete-agent-example/)** - 500+ line production example
+- **[11 Hands-on Exercises](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/EXERCISES/)** - From beginner to expert
+- **[Pattern Implementations](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/01-prompt-chaining/)** - Runnable Python code
+- **[Complete Agent Example](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/complete-agent-example/)** - 500+ line production example
 
 ### 🔍 Deep Analysis
-- **[Codex Patterns Analysis](https://artvandelay.github.io/codex-agentic-patterns/learning-material/CODEX_PATTERNS_SUMMARY/)** - How production systems work  
-- **[Advanced Patterns](https://artvandelay.github.io/codex-agentic-patterns/learning-material/16-sandbox-escalation/)** - Production complexity
+- **[Codex Patterns Analysis](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/CODEX_PATTERNS_SUMMARY/)** - How production systems work  
+- **[Advanced Patterns](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/16-sandbox-escalation/)** - Production complexity
 - **[Original Codex Source](https://github.com/openai/codex)** - Rust implementation
 
 ---
@@ -227,7 +227,7 @@ Help others discover production-grade agentic patterns!
 
 ## 🔗 Links
 
-- **[Learning Materials](./learning-material/)** - Start your journey
+- **[Learning Materials](./docs/learning-material/)** - Start your journey
 - **[Agentic Design Patterns Textbook](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?pli=1&tab=t.0#heading=h.pxcur8v2qagu)** - Original theory
 - **[OpenAI Codex CLI](https://github.com/openai/codex)** - Production implementation
 - **[OpenAI Platform](https://platform.openai.com/)** - Get your API key
@@ -235,7 +235,7 @@ Help others discover production-grade agentic patterns!
 
 ---
 
-**🚀 Ready to build the future of AI? [Start learning →](./learning-material/00-READ-ME-FIRST.md)**
+**🚀 Ready to build the future of AI? [Start learning →](./docs/learning-material/00-READ-ME-FIRST.md)**
 
 ---
 
