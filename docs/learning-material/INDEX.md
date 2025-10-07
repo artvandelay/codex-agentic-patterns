@@ -306,42 +306,42 @@ result = agent.run("Your task here")
 
 ### Foundations
 ```
-Monday:    Read main README + Pattern Summary
-Tuesday:   Pattern 1 (Prompt Chaining) - Simple
-Wednesday: Pattern 1 - Advanced
-Thursday:  Pattern 5 (Tool Use) - Simple
-Friday:    Pattern 5 - Advanced
-Weekend:   Build your own simple chain with tools
+• Read main README + Pattern Summary
+• Pattern 1 (Prompt Chaining) - Simple
+• Pattern 1 - Advanced
+• Pattern 5 (Tool Use) - Simple
+• Pattern 5 - Advanced
+• Build your own simple chain with tools
 ```
 
 ### Intermediate
 ```
-Monday:    Pattern 2 (Routing) - Simple
-Tuesday:   Pattern 2 - Advanced
-Wednesday: Pattern 8 (Memory) - Simple
-Thursday:  Pattern 12 (Exception Handling)
-Friday:    Pattern 13 (Human-in-the-Loop)
-Weekend:   Integrate patterns 1, 2, 5, 8
+• Pattern 2 (Routing) - Simple
+• Pattern 2 - Advanced
+• Pattern 8 (Memory) - Simple
+• Pattern 12 (Exception Handling)
+• Pattern 13 (Human-in-the-Loop)
+• Integrate patterns 1, 2, 5, 8
 ```
 
 ### Advanced
 ```
-Monday:    Pattern 3 (Parallelization)
-Tuesday:   Pattern 18 (Guardrails/Safety)
-Wednesday: Complete Agent - Read code
-Thursday:  Complete Agent - Run examples
-Friday:    Complete Agent - Modify/extend
-Weekend:   Build your complete agent
+• Pattern 3 (Parallelization)
+• Pattern 18 (Guardrails/Safety)
+• Complete Agent - Read code
+• Complete Agent - Run examples
+• Complete Agent - Modify/extend
+• Build your complete agent
 ```
 
 ### Mastery
 ```
-Monday:    Codex source code - codex.rs
-Tuesday:   Codex source code - tools/
-Wednesday: Codex source code - safety.rs
-Thursday:  Design your own agent
-Friday:    Implement your design
-Weekend:   Polish and test
+• Codex source code - codex.rs
+• Codex source code - tools/
+• Codex source code - safety.rs
+• Design your own agent
+• Implement your design
+• Polish and test
 ```
 
 ---
