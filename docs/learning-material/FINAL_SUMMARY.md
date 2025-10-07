@@ -8,7 +8,7 @@
 
 1. **Main Guides**
    - ✅ `README.md` - Complete overview
-   - ✅ `QUICKSTART.md` - 10-minute setup guide
+   - ✅ `QUICKSTART.md` - Quick setup guide
    - ✅ `INDEX.md` - Navigation and learning paths
    - ✅ `STRUCTURE.md` - Directory organization
    - ✅ `EXERCISES.md` - 11 practical exercises
@@ -84,12 +84,12 @@
 **Foundations**
 ```bash
 cd learning-material
-cat README.md              # 10 min
-cat QUICKSTART.md          # 10 min
+cat README.md             
+cat QUICKSTART.md         
 cd 01-prompt-chaining
-cat README.md              # 15 min
-python pattern_simple.py   # 30 min study + run
-python pattern_advanced.py # 1 hour study + run
+cat README.md             
+python pattern_simple.py  
+python pattern_advanced.py
 # Do Exercise 1 from EXERCISES.md
 ```
 
@@ -329,7 +329,6 @@ You now have:
 | Patterns Implemented | 9 |
 | Exercises | 11 |
 | Challenge Projects | 3 |
-| Time to Complete All | ~40-60 hours |
 
 ---
 
