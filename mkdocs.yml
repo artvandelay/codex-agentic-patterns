@@ -170,6 +170,6 @@ extra:
 copyright: |
   Copyright &copy; 2025 Codex Agentic Patterns Contributors<br>
   Built with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a> • 
-  Powered by <a href="https://cursor.sh/" target="_blank">Cursor</a><br>
+  Powered by <a href="https://cursor.sh/" target="_blank">Cursor</a> under heavy supervision of humans<br>
   Based on <a href="https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview" target="_blank">Agentic Design Patterns</a> • 
   Patterns extracted from <a href="https://github.com/openai/codex" target="_blank">OpenAI Codex CLI</a>
