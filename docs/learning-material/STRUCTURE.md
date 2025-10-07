@@ -8,7 +8,7 @@
 learning-material/
 │
 ├── 📄 README.md                          ⭐ START HERE
-├── 📄 QUICKSTART.md                      ⚡ 10-minute setup
+├── 📄 QUICKSTART.md                      ⚡ Quick setup
 ├── 📄 INDEX.md                           📚 Complete navigation guide
 ├── 📄 STRUCTURE.md                       📁 This file
 ├── 📄 EXERCISES.md                       🎯 Practical exercises
@@ -76,7 +76,7 @@ learning-material/
 
 ### Documentation Files (10)
 - `README.md` - Main overview and getting started
-- `QUICKSTART.md` - 10-minute quick start guide
+- `QUICKSTART.md` - Quick start guide
 - `INDEX.md` - Complete navigation and learning paths
 - `STRUCTURE.md` - This file
 - `EXERCISES.md` - Practice exercises and challenges
@@ -105,37 +105,31 @@ learning-material/
 - **Purpose**: Main entry point for learners
 - **Contents**: Overview, structure, getting started, pattern matrix
 - **Audience**: All levels
-- **Time**: 10 minutes to read
 
 #### `QUICKSTART.md` ⚡
 - **Purpose**: Get up and running fast
-- **Contents**: 5-minute setup, first examples, troubleshooting
+- **Contents**: Quick setup, first examples, troubleshooting
 - **Audience**: Beginners
-- **Time**: 10 minutes total (setup + run)
 
 #### `INDEX.md` 📚
 - **Purpose**: Complete navigation guide
 - **Contents**: Learning paths, pattern guide, study sequences
 - **Audience**: All levels
-- **Time**: 20 minutes to read, use as reference
 
 #### `EXERCISES.md` 🎯
 - **Purpose**: Hands-on practice
 - **Contents**: 11 exercises from beginner to expert
 - **Audience**: All levels (progressive difficulty)
-- **Time**: 30 min to 20 hours per exercise
 
 #### `CODEX_PATTERNS_SUMMARY.md` 📊
 - **Purpose**: Deep dive into Codex implementation
 - **Contents**: All 21 patterns analyzed, code references, insights
 - **Audience**: Intermediate to advanced
-- **Time**: 1-2 hours to read, ongoing reference
 
 #### `STRUCTURE.md` 📁
 - **Purpose**: Directory organization guide
 - **Contents**: File tree, statistics, navigation
 - **Audience**: All levels
-- **Time**: 5 minutes
 
 ### Pattern Folders
 
@@ -187,7 +181,7 @@ Each pattern folder contains:
 
 ## 🎯 Navigation Guide
 
-### For Beginners (Week 1-2)
+### For Beginners
 
 ```
 Start → README.md
@@ -202,7 +196,7 @@ Start → README.md
      → EXERCISES.md (Ex 1-3)
 ```
 
-### For Intermediate (Week 2-3)
+### For Intermediate
 
 ```
 02-routing/
@@ -219,7 +213,7 @@ Start → README.md
 EXERCISES.md (Ex 4-6)
 ```
 
-### For Advanced (Week 3-4)
+### For Advanced
 
 ```
 03-parallelization/
@@ -241,27 +235,27 @@ CODEX_PATTERNS_SUMMARY.md (deep study)
 
 ### Lines of Code by File
 
-| File | Lines | Complexity | Time to Study |
-|------|-------|------------|---------------|
-| `01-prompt-chaining/pattern_simple.py` | 150 | Low | 30 min |
-| `01-prompt-chaining/pattern_advanced.py` | 350 | Medium | 1 hour |
-| `02-routing/pattern_simple.py` | 200 | Medium | 45 min |
-| `03-parallelization/pattern_simple.py` | 250 | High | 1 hour |
-| `05-tool-use/pattern_simple.py` | 300 | Medium | 1 hour |
-| `complete-agent-example/complete_agent.py` | 500+ | High | 2-3 hours |
+| File | Lines | Complexity |
+|------|-------|------------|
+| `01-prompt-chaining/pattern_simple.py` | 150 | Low |
+| `01-prompt-chaining/pattern_advanced.py` | 350 | Medium |
+| `02-routing/pattern_simple.py` | 200 | Medium |
+| `03-parallelization/pattern_simple.py` | 250 | High |
+| `05-tool-use/pattern_simple.py` | 300 | Medium |
+| `complete-agent-example/complete_agent.py` | 500+ | High |
 
 ### Documentation by File
 
-| File | Words | Pages | Time to Read |
-|------|-------|-------|--------------|
-| `README.md` | 1,200 | 5 | 10 min |
-| `QUICKSTART.md` | 2,000 | 8 | 15 min |
-| `INDEX.md` | 3,000 | 12 | 20 min |
-| `EXERCISES.md` | 2,500 | 10 | 20 min |
-| `CODEX_PATTERNS_SUMMARY.md` | 3,500 | 14 | 30 min |
-| Pattern READMEs (5x) | 5,000 | 20 | 60 min |
+| File | Words | Pages |
+|------|-------|-------|
+| `README.md` | 1,200 | 5 |
+| `QUICKSTART.md` | 2,000 | 8 |
+| `INDEX.md` | 3,000 | 12 |
+| `EXERCISES.md` | 2,500 | 10 |
+| `CODEX_PATTERNS_SUMMARY.md` | 3,500 | 14 |
+| Pattern READMEs (5x) | 5,000 | 20 |
 
-**Total**: ~17,200 words, ~69 pages, ~2.5 hours reading
+**Total**: ~17,200 words, ~69 pages
 
 ## 🔍 Search Guide
 
@@ -364,18 +358,18 @@ diff pattern_simple.py my_solution.py
 
 ### First-Time Learners
 
-1. **`README.md`** (10 min) - Get overview
-2. **`QUICKSTART.md`** (10 min) - Setup environment
-3. **`01-prompt-chaining/README.md`** (15 min) - Learn pattern
-4. **`01-prompt-chaining/pattern_simple.py`** (30 min) - Run & study
-5. **`EXERCISES.md` Ex 1** (30 min) - Practice
+1. **`README.md`**  - Get overview
+2. **`QUICKSTART.md`**  - Setup environment
+3. **`01-prompt-chaining/README.md`**  - Learn pattern
+4. **`01-prompt-chaining/pattern_simple.py`**  - Run & study
+5. **`EXERCISES.md` Ex 1**  - Practice
 6. Repeat for patterns 5, 2, 8...
 
 ### Experienced Developers
 
-1. **`CODEX_PATTERNS_SUMMARY.md`** (30 min) - High-level overview
-2. **`complete-agent-example/README.md`** (15 min) - See architecture
-3. **`complete-agent-example/complete_agent.py`** (1 hour) - Study code
+1. **`CODEX_PATTERNS_SUMMARY.md`**  - High-level overview
+2. **`complete-agent-example/README.md`**  - See architecture
+3. **`complete-agent-example/complete_agent.py`**  - Study code
 4. Pick specific patterns to deep dive
 5. **`EXERCISES.md`** Challenge projects
 
