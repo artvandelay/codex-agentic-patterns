@@ -114,34 +114,33 @@ nav:
   - Home: index.md
   - Getting Started:
     - "📖 Start Here": learning-material/00-READ-ME-FIRST.md
-    - "⚡ Quick Start": learning-material/QUICKSTART.md
     - "🎓 Learning Guide": learning-material/START_HERE.md
+    - "⚡ Quick Start": learning-material/QUICKSTART.md
     - "📚 Complete Index": learning-material/INDEX.md
     - "🎯 Exercises": learning-material/EXERCISES.md
-  - Core Patterns:
+  - Fully Implemented Patterns:
     - "Pattern 1: Prompt Chaining": learning-material/01-prompt-chaining/README.md
     - "Pattern 2: Routing": learning-material/02-routing/README.md
     - "Pattern 3: Parallelization": learning-material/03-parallelization/README.md
     - "Pattern 5: Tool Use": learning-material/05-tool-use/README.md
+  - Advanced Production Patterns:
+    - "Pattern 16: Sandbox Escalation": learning-material/16-sandbox-escalation/README.md
+    - "Pattern 17: Turn Diff Tracking": learning-material/17-turn-diff-tracking/README.md
+    - "Pattern 18: Rollout System": learning-material/18-rollout-system/README.md
+  - Pattern Analysis:
     - "Pattern 6: Planning": learning-material/06-planning/README.md
     - "Pattern 7: Reflection": learning-material/07-reflection/README.md
     - "Pattern 8: Memory Management": learning-material/08-memory-management/README.md
-  - Advanced Patterns:
     - "Pattern 10: MCP Integration": learning-material/10-mcp-integration/README.md
     - "Pattern 12: Exception Handling": learning-material/12-exception-handling/README.md
     - "Pattern 13: Human-in-the-Loop": learning-material/13-human-in-the-loop/README.md
     - "Pattern 14: Knowledge Retrieval": learning-material/14-knowledge-retrieval/README.md
     - "Pattern 15: Reasoning": learning-material/15-reasoning/README.md
-  - Production Patterns:
-    - "Pattern 16: Sandbox Escalation": learning-material/16-sandbox-escalation/README.md
-    - "Pattern 17: Turn Diff Tracking": learning-material/17-turn-diff-tracking/README.md
-    - "Pattern 18: Rollout System": learning-material/18-rollout-system/README.md
   - Complete Agent:
     - "🏆 Complete Agent": learning-material/complete-agent-example/README.md
-  - Analysis:
+  - Analysis & Summary:
     - "📊 Codex Patterns Summary": learning-material/CODEX_PATTERNS_SUMMARY.md
     - "📁 Directory Structure": learning-material/STRUCTURE.md
-  - About:
     - "📋 Final Summary": learning-material/FINAL_SUMMARY.md
     - "✅ Completion Report": learning-material/COMPLETION_REPORT.md
 
