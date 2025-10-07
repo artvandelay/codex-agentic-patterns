@@ -110,27 +110,27 @@ By completing these materials, you will:
 ```
 START HERE
     │
-    ├─→ 🟢 Beginner Path (1-2 weeks)
+    ├─→ 🟢 Beginner Path 
     │      │
-    │      ├─ Week 1: Foundations
+    │      ├─ Foundations
     │      │  ├─ QUICKSTART.md
     │      │  ├─ Pattern 1: Prompt Chaining
     │      │  ├─ Pattern 5: Tool Use
     │      │  └─ Exercises 1-3
     │      │
-    │      └─ Week 2: Integration
+    │      └─ Integration
     │         ├─ Pattern 2: Routing
     │         ├─ Pattern 8: Memory
     │         └─ Build mini-agent
     │
-    ├─→ 🟡 Intermediate Path (2-3 weeks)
+    ├─→ 🟡 Intermediate Path 
     │      │
     │      ├─ Advanced patterns
     │      ├─ Exercises 4-6
     │      ├─ Error handling
     │      └─ State management
     │
-    └─→ 🔴 Advanced Path (3-4 weeks)
+    └─→ 🔴 Advanced Path 
            │
            ├─ Pattern 3: Parallelization
            ├─ Pattern 18: Safety

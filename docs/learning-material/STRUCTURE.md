@@ -305,23 +305,23 @@ CODEX_PATTERNS_SUMMARY.md (deep study)
 ### Sequential Learning
 
 ```bash
-# Week 1: Foundations
+# Foundations
 cat README.md
 cat QUICKSTART.md
 cd 01-prompt-chaining && cat README.md
 python pattern_simple.py
 python pattern_advanced.py
 
-# Week 2: Core Patterns
+# Core Patterns
 cd ../05-tool-use && cat README.md
 python pattern_simple.py
 cd ../02-routing && python pattern_simple.py
 
-# Week 3: Advanced
+# Advanced
 cd ../03-parallelization && python pattern_simple.py
 cd ../complete-agent-example && cat README.md
 
-# Week 4: Build Your Own
+# Build Your Own
 # Use complete_agent.py as template
 ```
 

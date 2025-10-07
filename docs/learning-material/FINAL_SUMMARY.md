@@ -45,9 +45,9 @@
 - **1 complete** agent implementation
 
 ### ✅ Multiple Learning Paths
-- **Beginner** path (1-2 weeks)
-- **Intermediate** path (2-3 weeks)
-- **Advanced** path (3-4 weeks)
+- **Beginner** path 
+- **Intermediate** path 
+- **Advanced** path 
 - **Expert** path (ongoing)
 
 ### ✅ Practical Focus
@@ -81,7 +81,7 @@
 
 ### Option 1: Sequential Learning (Recommended)
 
-**Week 1: Foundations**
+**Foundations**
 ```bash
 cd learning-material
 cat README.md              # 10 min
@@ -93,7 +93,7 @@ python pattern_advanced.py # 1 hour study + run
 # Do Exercise 1 from EXERCISES.md
 ```
 
-**Week 2: Core Patterns**
+**Core Patterns**
 ```bash
 cd 05-tool-use
 cat README.md
@@ -106,7 +106,7 @@ python pattern_simple.py
 # Do Exercise 4
 ```
 
-**Week 3: Advanced**
+**Advanced**
 ```bash
 cd 03-parallelization
 python pattern_simple.py
@@ -202,7 +202,7 @@ cat EXERCISES.md  # Read Challenge Projects
 
 ## 📈 Learning Progression
 
-### Beginner → Intermediate (2-3 weeks)
+### Beginner → Intermediate 
 
 **Skills Gained:**
 - ✅ Understand prompt chaining
@@ -217,7 +217,7 @@ cat EXERCISES.md  # Read Challenge Projects
 - Data analyzers
 - Code explainers
 
-### Intermediate → Advanced (3-4 weeks)
+### Intermediate → Advanced 
 
 **Skills Gained:**
 - ✅ Implement parallelization

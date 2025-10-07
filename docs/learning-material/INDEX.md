@@ -14,78 +14,78 @@
 
 ## 🎯 Learning Paths
 
-### Path 1: Beginner → Intermediate (2-3 weeks)
+### Beginner → Intermediate Learning Path
 
-**Week 1: Fundamentals**
+**Fundamentals**
 ```
-Day 1-2: [Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
+[Pattern 1: Prompt Chaining](./01-prompt-chaining/README.md)
          → Run pattern_simple.py
          → Read Codex examples in README
          → Experiment with pattern_advanced.py
 
-Day 3-4: [Pattern 5: Tool Use](./05-tool-use/README.md)
+[Pattern 5: Tool Use](./05-tool-use/README.md)
          → Understand function calling
          → Explore safety mechanisms
          → Build your own tool
 
-Day 5-7: [Pattern 8: Memory Management](./08-memory-management/README.md)
+[Pattern 8: Memory Management](./08-memory-management/README.md)
          → Study conversation history
          → Implement state persistence
          → Practice session management
 ```
 
-**Week 2: Intermediate Patterns**
+**Intermediate Patterns**
 ```
-Day 1-2: [Pattern 2: Routing](./02-routing/README.md)
+[Pattern 2: Routing](./02-routing/README.md)
          → Classification and dispatch
          → Build a tool router
          → Dynamic handler registration
 
-Day 3-5: [Pattern 12: Exception Handling](./12-exception-handling/README.md)
+[Pattern 12: Exception Handling](./12-exception-handling/README.md)
          → Retry logic with backoff
          → Error recovery strategies
          → Graceful degradation
 
-Day 6-7: [Pattern 13: Human-in-the-Loop](./13-human-in-the-loop/README.md)
+[Pattern 13: Human-in-the-Loop](./13-human-in-the-loop/README.md)
          → Approval workflows
          → Policy systems
          → User control patterns
 ```
 
-**Week 3: Integration**
+**Integration**
 ```
-Day 1-7: [Complete Agent Example](./complete-agent-example/README.md)
+[Complete Agent Example](./complete-agent-example/README.md)
          → Study complete_agent.py
          → Run example scenarios
          → Modify and extend
          → Build your own variant
 ```
 
-### Path 2: Deep Dive (1-2 weeks)
+### Path 2: Deep Dive 
 
 **For Experienced Developers**
 ```
-Day 1: Codex Source Code Tour
+Codex Source Code Tour
        → codex-rs/core/src/codex.rs
        → Understand turn-based architecture
        → Trace a complete workflow
 
-Day 2: Safety & Sandboxing
+Safety & Sandboxing
        → codex-rs/core/src/safety.rs
        → codex-rs/core/src/exec.rs
        → Study platform-specific isolation
 
-Day 3: Tool System Architecture
+Tool System Architecture
        → codex-rs/core/src/tools/
        → Router, registry, handlers
        → Parallel execution
 
-Day 4: MCP Integration
+MCP Integration
        → codex-rs/mcp-client/
        → codex-rs/mcp-server/
        → Protocol implementation
 
-Day 5-7: Build Your Own
+Build Your Own
          → Design architecture
          → Implement core patterns
          → Add your own features
@@ -311,7 +311,7 @@ result = agent.run("Your task here")
 
 ## 🎓 Suggested Study Sequence
 
-### Week 1: Foundations
+### Foundations
 ```
 Monday:    Read main README + Pattern Summary
 Tuesday:   Pattern 1 (Prompt Chaining) - Simple
@@ -321,7 +321,7 @@ Friday:    Pattern 5 - Advanced
 Weekend:   Build your own simple chain with tools
 ```
 
-### Week 2: Intermediate
+### Intermediate
 ```
 Monday:    Pattern 2 (Routing) - Simple
 Tuesday:   Pattern 2 - Advanced
@@ -331,7 +331,7 @@ Friday:    Pattern 13 (Human-in-the-Loop)
 Weekend:   Integrate patterns 1, 2, 5, 8
 ```
 
-### Week 3: Advanced
+### Advanced
 ```
 Monday:    Pattern 3 (Parallelization)
 Tuesday:   Pattern 18 (Guardrails/Safety)
@@ -341,7 +341,7 @@ Friday:    Complete Agent - Modify/extend
 Weekend:   Build your complete agent
 ```
 
-### Week 4: Mastery
+### Mastery
 ```
 Monday:    Codex source code - codex.rs
 Tuesday:   Codex source code - tools/
