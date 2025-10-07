@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide
 
-> **Get up and running in 10 minutes**
+> **Get up and running quickly**
 
 ## 📋 Prerequisites
 
@@ -244,7 +244,7 @@ export OPENAI_API_KEY="your-key-here"
 ### Problem: "Rate limit exceeded"
 
 **Solution:**
-- Wait a few seconds between calls
+- Be patient between calls
 - Use time.sleep(1) between requests
 - Check your API usage at platform.openai.com
 
@@ -374,12 +374,6 @@ If you checked all boxes, you're ready to dive deeper! 🎉
 Happy Learning! 🎓
 
 ---
-
-
-- Basic Understanding: 1 week
-- Intermediate Skills: 2-3 weeks  
-- Advanced Mastery: 4-6 weeks
-- Production-Ready: 2-3 months
 
 *The journey of a thousand miles begins with a single step.* 🥋
 
