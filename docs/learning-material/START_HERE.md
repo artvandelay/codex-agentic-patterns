@@ -22,7 +22,7 @@ By completing these materials, you will:
 ### 🟢 Complete Beginner? (Never built an agent)
 
 ```bash
-1. Read: QUICKSTART.md (10 minutes)
+1. Read: QUICKSTART.md
 2. Run: cd 01-prompt-chaining && python pattern_simple.py
 3. Learn: Pattern by pattern, start with #1
 
@@ -36,7 +36,7 @@ By completing these materials, you will:
 ### 🟡 Have Some Experience? (Built basic chatbots)
 
 ```bash
-1. Read: INDEX.md (20 minutes)
+1. Read: INDEX.md
 2. Skim: CODEX_PATTERNS_SUMMARY.md
 3. Jump to: 02-routing/ or 05-tool-use/
 4. Build: Exercise 4-6 from EXERCISES.md
@@ -51,7 +51,7 @@ By completing these materials, you will:
 ### 🔴 Experienced Developer? (Built production systems)
 
 ```bash
-1. Read: CODEX_PATTERNS_SUMMARY.md (30 minutes)
+1. Read: CODEX_PATTERNS_SUMMARY.md
 2. Study: complete-agent-example/complete_agent.py
 3. Dive into: Codex source code (codex-rs/core/src/)
 4. Build: Challenge project from EXERCISES.md
@@ -70,7 +70,7 @@ By completing these materials, you will:
 | File | Purpose  Difficulty |
 |------|---------|------|------------|
 | **[README.md](./README.md)** | Main overview  🟢 |
-| **[QUICKSTART.md](./QUICKSTART.md)** | 10-min setup  🟢 |
+| **[QUICKSTART.md](./QUICKSTART.md)** | Quick setup  🟢 |
 | **[INDEX.md](./INDEX.md)** | Complete guide  🟡 |
 | **[EXERCISES.md](./EXERCISES.md)**  varies | 🟢-🔴 |
 | **[CODEX_PATTERNS_SUMMARY.md](./CODEX_PATTERNS_SUMMARY.md)** | Pattern analysis  🔴 |
@@ -264,7 +264,7 @@ A: Pattern 1 (Prompt Chaining) - it's foundational
 A: Not recommended, but if experienced: 1 → 5 → 2 → Complete Agent
 
 **Q: "How long will this take?"**  
-A: Beginner: 1-2 weeks | Intermediate: 2-3 weeks | Advanced: 4-6 weeks
+A: Everyone learns at their own pace. Focus on understanding rather than speed.
 
 ### Getting Support
 
@@ -293,7 +293,7 @@ A: Beginner: 1-2 weeks | Intermediate: 2-3 weeks | Advanced: 4-6 weeks
 
 ## 🌟 What Others Are Saying
 
-> *"These materials helped me go from zero to building production agents in 3 weeks!"*  
+> *"These materials helped me go from zero to building production agents!"*  
 > – Developer learning agentic AI
 
 > *"The Codex analysis is invaluable - seeing real production code explained."*  
