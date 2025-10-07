@@ -1,8 +1,9 @@
 site_name: Codex Agentic Patterns
 site_description: Learn to build production-ready AI agents through real-world patterns extracted from OpenAI's Codex CLI
-site_url: https://your-username.github.io/codex-agentic-patterns/
-repo_url: https://github.com/your-username/codex-agentic-patterns
-repo_name: codex-agentic-patterns
+site_url: https://artvandelay.github.io/codex-agentic-patterns/
+repo_url: https://github.com/artvandelay/codex-agentic-patterns
+repo_name: artvandelay/codex-agentic-patterns
+edit_uri: edit/main/
 
 theme:
   name: material
@@ -79,7 +80,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/codex-agentic-patterns
+      link: https://github.com/artvandelay/codex-agentic-patterns
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/your-username
   analytics:
