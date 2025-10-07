@@ -4,6 +4,7 @@ site_url: https://artvandelay.github.io/codex-agentic-patterns/
 repo_url: https://github.com/artvandelay/codex-agentic-patterns
 repo_name: artvandelay/codex-agentic-patterns
 edit_uri: edit/main/
+docs_dir: docs
 
 theme:
   name: material
