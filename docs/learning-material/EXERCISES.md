@@ -6,7 +6,6 @@
 
 Each exercise includes:
 - **Difficulty**: ⭐ (Beginner) to ⭐⭐⭐⭐ (Expert)
-- **Time**: Estimated completion time
 - **Patterns**: Which patterns you'll practice
 - **Learning Goals**: What you'll master
 - **Tasks**: Step-by-step instructions
@@ -18,7 +17,6 @@ Each exercise includes:
 
 ### Exercise 1: Extend a Chain ⭐
 
-**Time**: 30 minutes  
 **Pattern**: Prompt Chaining (1)  
 **File**: `01-prompt-chaining/pattern_simple.py`
 
@@ -58,7 +56,6 @@ Provide a brief validation summary.
 
 ### Exercise 2: Build a Simple Tool ⭐
 
-**Time**: 45 minutes  
 **Pattern**: Tool Use (5)  
 **File**: `05-tool-use/pattern_simple.py`
 
@@ -109,7 +106,6 @@ def count_words(text: str) -> str:
 
 ### Exercise 3: Add Error Handling ⭐
 
-**Time**: 45 minutes  
 **Pattern**: Exception Handling (12)
 
 **Learning Goals:**
@@ -157,7 +153,6 @@ def retry_with_backoff(func, max_retries=3):
 
 ### Exercise 4: Build a Router ⭐⭐
 
-**Time**: 1.5 hours  
 **Pattern**: Routing (2)
 
 **Learning Goals:**
@@ -199,7 +194,6 @@ def route_query(query: str):
 
 ### Exercise 5: Implement Memory ⭐⭐
 
-**Time**: 2 hours  
 **Pattern**: Memory Management (8)
 
 **Learning Goals:**
@@ -247,7 +241,6 @@ class ConversationMemory:
 
 ### Exercise 6: Add Approval System ⭐⭐
 
-**Time**: 2 hours  
 **Pattern**: Human-in-the-Loop (13)
 
 **Learning Goals:**
@@ -295,7 +288,6 @@ class SafetyChecker:
 
 ### Exercise 7: Implement Parallelization ⭐⭐⭐
 
-**Time**: 3 hours  
 **Pattern**: Parallelization (3)
 
 **Learning Goals:**
@@ -342,7 +334,6 @@ class ParallelExecutor:
 
 ### Exercise 8: Build Complete Mini-Agent ⭐⭐⭐⭐
 
-**Time**: 8-10 hours  
 **Patterns**: 1, 2, 5, 8, 12, 13
 
 **Learning Goals:**
@@ -378,7 +369,6 @@ class ParallelExecutor:
 
 ### Challenge 1: Code Review Agent ⭐⭐⭐⭐
 
-**Time**: 15-20 hours  
 **Description**: Build an agent that reviews code for:
 - Style issues
 - Potential bugs
@@ -396,7 +386,6 @@ class ParallelExecutor:
 
 ### Challenge 2: Research Assistant ⭐⭐⭐
 
-**Time**: 10-15 hours  
 **Description**: Build an agent that:
 - Searches multiple sources
 - Summarizes findings
@@ -413,7 +402,6 @@ class ParallelExecutor:
 
 ### Challenge 3: Data Analyst ⭐⭐⭐⭐
 
-**Time**: 20-25 hours  
 **Description**: Build an agent that:
 - Loads CSV/JSON data
 - Performs statistical analysis
