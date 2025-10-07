@@ -97,22 +97,22 @@ I've added **3 sophisticated patterns** extracted from Codex's production codeba
 
 ## 🎓 Learning Paths
 
-### 🟢 Beginner (1-2 weeks, 6-8 hours)
+### 🟢 Beginner
 ```
 QUICKSTART.md → Pattern 1 → Pattern 5 → Exercises 1-3 → Build mini-agent
 ```
 
-### 🟡 Intermediate (2-3 weeks, 15-20 hours)
+### 🟡 Intermediate
 ```
 INDEX.md → Patterns 2,8,12 → Exercises 4-6 → Build domain agent
 ```
 
-### 🔴 Advanced (3-4 weeks, 20-30 hours)
+### 🔴 Advanced
 ```
 CODEX_PATTERNS_SUMMARY.md → All patterns → Complete agent → Challenge project
 ```
 
-### 🔥 Production (6-8 weeks, 40-60 hours) ⭐ **NEW!**
+### 🔥 Production ⭐ **NEW!**
 ```
 16-sandbox-escalation/ → 17-turn-diff-tracking/ → 18-rollout-system/
 → Build production agent with ALL patterns
