@@ -9,7 +9,7 @@ This is a **comprehensive learning resource** for building intelligent AI agents
 - **Agentic Design Patterns** - 21 patterns from the textbook
 - **Real Production Code** - Not toy examples
 
-## ⚡ Quick Start (30 seconds)
+## ⚡ Quick Start
 
 ### 🟢 New to AI Agents?
 → Open [`START_HERE.md`](./START_HERE.md)
@@ -156,7 +156,7 @@ After completing these materials, you'll be able to:
 - 🔴 **Experienced?** → [`CODEX_PATTERNS_SUMMARY.md`](./CODEX_PATTERNS_SUMMARY.md)
 - 🔥 **Want production patterns?** → [`16-sandbox-escalation/`](./16-sandbox-escalation/README.md) ⭐
 
-### Step 2: Set Up (5 minutes)
+### Step 2: Set Up
 ```bash
 # Install Python & OpenAI
 pip install openai
@@ -165,7 +165,7 @@ pip install openai
 export OPENAI_API_KEY="your-key-here"
 ```
 
-### Step 3: Run First Example (5 minutes)
+### Step 3: Run First Example
 ```bash
 # Basic pattern
 cd 01-prompt-chaining
@@ -237,16 +237,6 @@ learning-material/
 ├── 17-turn-diff-tracking/       ⭐ NEW! Git-style diffs
 ├── 18-rollout-system/           ⭐ NEW! Session replay
 ```
-
----
-
-## ⏱️ Time Investment
-
-- **Quick Overview**: 30 minutes
-- **Basic Understanding**: 6-8 hours
-- **Intermediate Skills**: 15-20 hours
-- **Advanced Mastery**: 20-30 hours
-- **Production Ready**: 40-60 hours ⭐
 
 ---
 
