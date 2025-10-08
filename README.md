@@ -53,9 +53,11 @@ cd codex-agentic-patterns
 # Navigate to learning materials  
 cd docs/learning-material
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Set up environment
 export OPENAI_API_KEY="your-key-here"
-pip install openai
 
 # Run your first example
 cd 01-prompt-chaining
@@ -70,7 +72,7 @@ python pattern_simple.py
 
 ### 🟢 Beginner (1-2 weeks)
 Start here if you're new to AI agents:
-- [**Quick Start Guide**](./doc./docs/learning-material/QUICKSTART.md) ⚡
+- [**Quick Start Guide**](./docs/learning-material/QUICKSTART.md) ⚡
 - [**Pattern 1: Prompt Chaining**](./docs/learning-material/01-prompt-chaining/) 
 - [**Pattern 5: Tool Use**](./docs/learning-material/05-tool-use/)
 
@@ -113,12 +115,11 @@ This learning resource analyzes patterns from:
 
 ### 📊 By The Numbers
 
-- **~9,000 lines** of learning materials
-- **8 patterns** fully implemented in Python
-- **14 patterns** analyzed from Codex source
-- **11 hands-on exercises** 
-- **500+ lines** complete agent example
-- **Production-grade** error handling & safety
+- **21 agentic patterns** - Complete coverage from theory to practice
+- **8 patterns** fully implemented in Python with runnable code
+- **13 patterns** analyzed from Codex source with detailed explanations
+- **500+ lines** complete production agent example
+- **Production-grade** error handling & safety mechanisms
 
 ---
 
@@ -176,18 +177,18 @@ This work builds upon:
 
 ### 🌐 **Interactive Documentation** (Start Here!)
 - **[Main Documentation Site](https://artvandelay.github.io/codex-agentic-patterns/)** - Beautiful, searchable interface
-- **[Getting Started Guide](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/00-READ-ME-FIRST/)** - Your entry point  
-- **[Quick Setup](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/QUICKSTART/)** - Get running in 10 minutes
-- **[Complete Index](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/INDEX/)** - Navigate all content
+- **[Getting Started Guide](https://artvandelay.github.io/codex-agentic-patterns/learning-material/00-READ-ME-FIRST/)** - Your entry point  
+- **[Quick Setup](https://artvandelay.github.io/codex-agentic-patterns/learning-material/QUICKSTART/)** - Get running in 10 minutes
+- **[Complete Index](https://artvandelay.github.io/codex-agentic-patterns/learning-material/INDEX/)** - Navigate all content
 
 ### 🎯 Practice & Exercises  
-- **[11 Hands-on Exercises](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/EXERCISES/)** - From beginner to expert
-- **[Pattern Implementations](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/01-prompt-chaining/)** - Runnable Python code
-- **[Complete Agent Example](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/complete-agent-example/)** - 500+ line production example
+- **[11 Hands-on Exercises](https://artvandelay.github.io/codex-agentic-patterns/learning-material/EXERCISES/)** - From beginner to expert
+- **[Pattern Implementations](https://artvandelay.github.io/codex-agentic-patterns/learning-material/01-prompt-chaining/)** - Runnable Python code
+- **[Complete Agent Example](https://artvandelay.github.io/codex-agentic-patterns/learning-material/complete-agent-example/)** - 500+ line production example
 
 ### 🔍 Deep Analysis
-- **[Codex Patterns Analysis](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/CODEX_PATTERNS_SUMMARY/)** - How production systems work  
-- **[Advanced Patterns](https://artvandelay.github.io/codex-agentic-pattern./docs/learning-material/16-sandbox-escalation/)** - Production complexity
+- **[Codex Patterns Analysis](https://artvandelay.github.io/codex-agentic-patterns/learning-material/CODEX_PATTERNS_SUMMARY/)** - How production systems work  
+- **[Advanced Patterns](https://artvandelay.github.io/codex-agentic-patterns/learning-material/16-sandbox-escalation/)** - Production complexity
 - **[Original Codex Source](https://github.com/openai/codex)** - Rust implementation
 
 ---
@@ -235,7 +236,7 @@ Help others discover production-grade agentic patterns!
 
 ---
 
-**🚀 Ready to build the future of AI? [Start learning →](./docs/learning-material/00-READ-ME-FIRST.md)**
+**🚀 Ready to build the future of AI? [Start learning →](./docs/learning-material/)**
 
 ---
 

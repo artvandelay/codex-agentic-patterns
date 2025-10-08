@@ -1,101 +1,154 @@
-# GitHub Repository Setup
-
-# Codex source code (we link to the original repo instead)
-codex-rs/
-codex-cli/
-sdk/
-scripts/
-cliff.toml
-AGENTS.md
-CHANGELOG.md
-NOTICE
-PNPM.md
-package.json
-pnpm-lock.yaml
-pnpm-workspace.yaml
-flake.lock
-flake.nix
-.codespellignore
-.codespellrc
-.devcontainer/
-# Note: .github/workflows/ is needed for GitHub Actions
-.github/*
-!.github/workflows/
-.npmrc
-.prettierignore
-.prettierrc.toml
-.vscode/
-CLEAN_REPO_GUIDE.md
-
-# Standard exclusions
-node_modules/
-*.pyc
+# Python
 __pycache__/
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
-env/
-venv/
-.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
 *.log
-.git
-.mypy_cache
-.pytest_cache
-.hypothesis
+local_settings.py
+db.sqlite3
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Flask stuff:
+instance/
+.webassets-cache
 
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Scrapy stuff:
+.scrapy
 
-# MkDocs
-site/
-.mkdocs_cache/
+# Sphinx documentation
+docs/_build/
 
-# Temporary files
-*.tmp
-*.temp
-.temp/
-temp/
+# PyBuilder
+target/
 
-# API Keys (security)
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
-*.env
-.env.local
-.env.*.local
-config.json
-secrets.json
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Build artifacts
-dist/
-build/
-*.egg-info/
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
+# Rope project settings
+.ropeproject
 
-# Editor backups
-*~
-*.bak
-*.orig
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Development and WIP files
+*_AUDIT_REPORT.md
+*_ISSUES_FOUND.md
+*_ERROR_CHECK*.md
+*_SUMMARY.md
+*_UPDATE_REPORT.md
+*.workspace
+.vscode/settings.json
+.idea/
