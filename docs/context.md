@@ -49,3 +49,5 @@ Plus, the best way to learn is by doing. All code is MIT licensed, so fork it, b
 ---
 
 *Ready to dive in? Start with [Chapter 1: Prompt Chaining](./learning-material/01-prompt-chaining/README.md) or jump to any pattern that interests you.*
+
+*Discussed on [Hacker News](https://news.ycombinator.com/item?id=45509853)*
