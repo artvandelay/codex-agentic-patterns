@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artvandelay.github.io/codex-agentic-patterns/sitemap.xml

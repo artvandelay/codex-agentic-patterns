@@ -1,5 +1,5 @@
 site_name: Codex Agentic Patterns
-site_description: Learn to build production-ready AI agents through real-world patterns extracted from OpenAI's Codex CLI
+site_description: "Learn 17 production AI agent patterns extracted from OpenAI Codex CLI. Python implementations with hands-on examples for prompt chaining, tool use, sandbox escalation, and more."
 site_url: https://artvandelay.github.io/codex-agentic-patterns/
 repo_url: https://github.com/artvandelay/codex-agentic-patterns
 repo_name: artvandelay/codex-agentic-patterns
@@ -141,10 +141,14 @@ nav:
 
 extra:
   homepage: https://artvandelay.github.io/codex-agentic-patterns/
+  keywords: "AI agents, agentic patterns, OpenAI Codex, Python AI, LangChain, agent frameworks, prompt chaining, tool use, production AI, sandbox escalation, MCP integration"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/artvandelay/codex-agentic-patterns
       name: View on GitHub
+    - icon: fontawesome/brands/hacker-news
+      link: https://news.ycombinator.com/item?id=45509853
+      name: Discuss on Hacker News
     - icon: fontawesome/solid/book
       link: https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview
       name: Original Textbook
