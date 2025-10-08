@@ -2,6 +2,8 @@
 
 Learn to build production AI agents through real-world patterns extracted from OpenAI Codex CLI.
 
+This guide bridges theory and practice by analyzing 100,000+ lines of production Rust code from OpenAI's battle-tested agent system. Each pattern includes Python implementations, real-world examples, and hands-on exercises you can run immediately.
+
 ## Chapters
 
 **[Chapter 1 - Prompt Chaining](./learning-material/01-prompt-chaining/README.md)**  
