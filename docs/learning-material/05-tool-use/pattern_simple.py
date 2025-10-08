@@ -32,7 +32,7 @@ def get_weather(location: str) -> str:
         "New York": "Sunny, 72°F",
         "London": "Cloudy, 15°C",
         "Tokyo": "Rainy, 20°C",
-        "default": "Weather data not available"
+        "default": "Weather data not available",
     }
     return weather_data.get(location, weather_data["default"])
 
@@ -44,18 +44,18 @@ def run_shell_command(command: str) -> str:
     """
     # Whitelist of safe commands (inspired by Codex safety checks)
     safe_commands = ["ls", "pwd", "echo", "date", "whoami"]
-    
+
     cmd_parts = command.split()
     if not cmd_parts or cmd_parts[0] not in safe_commands:
         return f"ERROR: Command '{command}' not allowed. Only safe commands permitted."
-    
+
     try:
         result = subprocess.run(
             command,
             shell=True,
             capture_output=True,
             text=True,
-            timeout=5  # Timeout like Codex
+            timeout=5,  # Timeout like Codex
         )
         return result.stdout if result.stdout else result.stderr
     except subprocess.TimeoutExpired:
@@ -73,7 +73,7 @@ def calculate(expression: str) -> str:
         allowed_chars = set("0123456789+-*/(). ")
         if not all(c in allowed_chars for c in expression):
             return "ERROR: Invalid characters in expression"
-        
+
         result = eval(expression, {"__builtins__": {}}, {})
         return str(result)
     except Exception as e:
@@ -96,12 +96,8 @@ TOOL_SPECS = [
         "function": {
             "name": "get_current_time",
             "description": "Get the current date and time",
-            "parameters": {
-                "type": "object",
-                "properties": {},
-                "required": []
-            }
-        }
+            "parameters": {"type": "object", "properties": {}, "required": []},
+        },
     },
     {
         "type": "function",
@@ -113,12 +109,12 @@ TOOL_SPECS = [
                 "properties": {
                     "location": {
                         "type": "string",
-                        "description": "City name (e.g., 'New York', 'London')"
+                        "description": "City name (e.g., 'New York', 'London')",
                     }
                 },
-                "required": ["location"]
-            }
-        }
+                "required": ["location"],
+            },
+        },
     },
     {
         "type": "function",
@@ -130,12 +126,12 @@ TOOL_SPECS = [
                 "properties": {
                     "command": {
                         "type": "string",
-                        "description": "Shell command to execute"
+                        "description": "Shell command to execute",
                     }
                 },
-                "required": ["command"]
-            }
-        }
+                "required": ["command"],
+            },
+        },
     },
     {
         "type": "function",
@@ -147,13 +143,13 @@ TOOL_SPECS = [
                 "properties": {
                     "expression": {
                         "type": "string",
-                        "description": "Math expression (e.g., '2 + 2', '10 * 5')"
+                        "description": "Math expression (e.g., '2 + 2', '10 * 5')",
                     }
                 },
-                "required": ["expression"]
-            }
-        }
-    }
+                "required": ["expression"],
+            },
+        },
+    },
 ]
 
 
@@ -164,18 +160,18 @@ def execute_tool(tool_name: str, tool_args: dict) -> str:
     """
     print(f"  🔧 Executing tool: {tool_name}")
     print(f"  📝 Arguments: {tool_args}")
-    
+
     tool_function = AVAILABLE_TOOLS.get(tool_name)
     if not tool_function:
         return f"ERROR: Unknown tool '{tool_name}'"
-    
+
     try:
         # Call the tool with arguments
         if tool_args:
             result = tool_function(**tool_args)
         else:
             result = tool_function()
-        
+
         print(f"  ✅ Result: {result}")
         return result
     except Exception as e:
@@ -187,7 +183,7 @@ def execute_tool(tool_name: str, tool_args: dict) -> str:
 def agent_with_tools(user_query: str, max_iterations: int = 5) -> str:
     """
     Run an agent loop with tool use.
-    
+
     Similar to Codex's turn-based execution:
     1. LLM generates response (possibly with tool calls)
     2. Execute tools
@@ -197,14 +193,14 @@ def agent_with_tools(user_query: str, max_iterations: int = 5) -> str:
     print(f"\n{'=' * 60}")
     print(f"USER QUERY: {user_query}")
     print(f"{'=' * 60}\n")
-    
+
     messages = [{"role": "user", "content": user_query}]
-    
+
     for iteration in range(max_iterations):
         print(f"\n{'─' * 60}")
         print(f"ITERATION {iteration + 1}")
         print(f"{'─' * 60}")
-        
+
         # Call LLM with tools
         response = client.chat.completions.create(
             model="gpt-4",
@@ -212,46 +208,48 @@ def agent_with_tools(user_query: str, max_iterations: int = 5) -> str:
             tools=TOOL_SPECS,
             tool_choice="auto",
         )
-        
+
         response_message = response.choices[0].message
         messages.append(response_message)
-        
+
         # Check if LLM wants to use tools
         tool_calls = response_message.tool_calls
-        
+
         if not tool_calls:
             # LLM provided final answer
             final_answer = response_message.content
             print(f"\n✅ FINAL ANSWER:")
             print(final_answer)
             return final_answer
-        
+
         # Execute all tool calls
         print(f"\n🔨 LLM requested {len(tool_calls)} tool(s):")
-        
+
         for tool_call in tool_calls:
             function_name = tool_call.function.name
             function_args = json.loads(tool_call.function.arguments)
-            
+
             # Execute the tool
             tool_result = execute_tool(function_name, function_args)
-            
+
             # Add tool result to messages
-            messages.append({
-                "role": "tool",
-                "tool_call_id": tool_call.id,
-                "name": function_name,
-                "content": tool_result,
-            })
-        
+            messages.append(
+                {
+                    "role": "tool",
+                    "tool_call_id": tool_call.id,
+                    "name": function_name,
+                    "content": tool_result,
+                }
+            )
+
         print(f"\n📤 Feeding {len(tool_calls)} result(s) back to LLM...")
-    
+
     return "ERROR: Max iterations reached without final answer"
 
 
 def demo_tool_use():
     """Demonstrate tool use with various queries."""
-    
+
     test_queries = [
         "What time is it right now?",
         "What's the weather like in Tokyo?",
@@ -259,14 +257,14 @@ def demo_tool_use():
         "What files are in the current directory?",
         "What time is it in New York and what's the weather there?",
     ]
-    
+
     print("🚀 Tool Use Pattern Demo")
     print("=" * 60)
-    
+
     for query in test_queries:
         result = agent_with_tools(query)
         print("\n" + "═" * 60 + "\n")
-    
+
     print("\n💡 Key Observations:")
     print("1. LLM decides WHEN to use tools")
     print("2. LLM decides WHICH tools to use")
@@ -278,16 +276,15 @@ def demo_tool_use():
 if __name__ == "__main__":
     try:
         demo_tool_use()
-        
+
         print("\n\n💡 Key Lessons:")
         print("1. ✅ Tools give agents real-world capabilities")
         print("2. ✅ LLM orchestrates tool use intelligently")
         print("3. ✅ Safety checks are CRITICAL (whitelist, timeout, sandbox)")
         print("4. ✅ Tool results integrate seamlessly into conversation")
         print("5. ⚠️  In production, use proper sandboxing like Codex does")
-        
+
     except Exception as e:
         print(f"\n❌ Error: {e}")
         print("\n💡 Make sure OPENAI_API_KEY is set:")
         print("   export OPENAI_API_KEY='your-key-here'")
-

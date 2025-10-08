@@ -173,11 +173,12 @@ See the example files:
 - **Tokio Guide**: https://tokio.rs/tokio/tutorial
 - **Python asyncio**: https://docs.python.org/3/library/asyncio.html
 
-## 🔗 Related Patterns
+## 🔗 See Also
 
-- **Pattern 1: Prompt Chaining** - Parallel can be one step in chain
-- **Pattern 2: Routing** - Router decides what runs parallel
-- **Pattern 5: Tool Use** - Tools declare parallel capability
+- **[Pattern 1: Prompt Chaining](../01-prompt-chaining/README.md)** - Parallel can be one step in chain
+- **[Pattern 2: Routing](../02-routing/README.md)** - Router decides what runs parallel
+- **[Pattern 5: Tool Use](../05-tool-use/README.md)** - Tools declare parallel capability
+- **[Pattern 12: Exception Handling](../12-exception-handling/README.md)** - Error handling in parallel tasks
 
 ---
 

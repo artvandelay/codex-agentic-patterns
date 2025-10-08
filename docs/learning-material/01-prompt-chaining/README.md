@@ -141,11 +141,12 @@ See the example files:
 - **Textbook**: Chapter 1 - Prompt Chaining
 - **LangChain LCEL**: https://python.langchain.com/docs/expression_language/
 
-## 🔗 Related Patterns
+## 🔗 See Also
 
-- **Pattern 2: Routing** - Decides which chain to execute
-- **Pattern 8: Memory Management** - Stores chain state
-- **Pattern 12: Exception Handling** - Handles chain failures
+- **[Pattern 2: Routing](../02-routing/README.md)** - Decides which chain to execute
+- **[Pattern 5: Tool Use](../05-tool-use/README.md)** - Tools can be steps in chains
+- **[Pattern 8: Memory Management](../08-memory-management/README.md)** - Stores chain state
+- **[Pattern 12: Exception Handling](../12-exception-handling/README.md)** - Handles chain failures
 
 ---
 

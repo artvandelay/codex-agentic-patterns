@@ -35,7 +35,7 @@ def simple_chain_example():
     print("=" * 60)
     print("SIMPLE PROMPT CHAIN EXAMPLE")
     print("=" * 60)
-    
+
     # Sample input
     input_text = """
     Our Q4 sales report shows revenue increased by 15% compared to Q3,
@@ -43,15 +43,15 @@ def simple_chain_example():
     and customer satisfaction scores dropped from 4.2 to 3.8 out of 5.
     The marketing team spent $500K on campaigns, up from $300K in Q3.
     """
-    
+
     print("\n📄 Input Text:")
     print(input_text)
-    
+
     # Step 1: Extract structured data
     print("\n" + "─" * 60)
     print("🔗 STEP 1: Extract Key Metrics")
     print("─" * 60)
-    
+
     step1_prompt = f"""
     Extract the key business metrics from this text in a structured format:
     
@@ -60,15 +60,15 @@ def simple_chain_example():
     Format as:
     - Metric: Value
     """
-    
+
     step1_output = call_llm(step1_prompt)
     print(f"\n✅ Step 1 Output:\n{step1_output}")
-    
+
     # Step 2: Analyze using previous output
     print("\n" + "─" * 60)
     print("🔗 STEP 2: Analyze Trends")
     print("─" * 60)
-    
+
     step2_prompt = f"""
     Based on these extracted metrics, identify concerning trends:
     
@@ -76,15 +76,15 @@ def simple_chain_example():
     
     Focus on metrics moving in opposite directions or problematic patterns.
     """
-    
+
     step2_output = call_llm(step2_prompt)
     print(f"\n✅ Step 2 Output:\n{step2_output}")
-    
+
     # Step 3: Generate recommendations using all previous context
     print("\n" + "─" * 60)
     print("🔗 STEP 3: Generate Recommendations")
     print("─" * 60)
-    
+
     step3_prompt = f"""
     Given this analysis of business trends:
     
@@ -92,14 +92,14 @@ def simple_chain_example():
     
     Provide 3 specific, actionable recommendations to address the concerns.
     """
-    
+
     step3_output = call_llm(step3_prompt)
     print(f"\n✅ Step 3 Output:\n{step3_output}")
-    
+
     print("\n" + "=" * 60)
     print("✨ CHAIN COMPLETE")
     print("=" * 60)
-    
+
     return {
         "step1": step1_output,
         "step2": step2_output,
@@ -115,7 +115,7 @@ def coding_task_chain_example():
     print("\n\n" + "=" * 60)
     print("CODING TASK CHAIN EXAMPLE")
     print("=" * 60)
-    
+
     code_snippet = """
 def calculate_total(items):
     total = 0
@@ -123,14 +123,14 @@ def calculate_total(items):
         total = total + i['price'] * i['quantity']
     return total
 """
-    
+
     print(f"\n📝 Code to Review:\n{code_snippet}")
-    
+
     # Step 1: Understand the code
     print("\n" + "─" * 60)
     print("🔗 STEP 1: Code Understanding")
     print("─" * 60)
-    
+
     understand_prompt = f"""
     Analyze this code and explain what it does:
     
@@ -138,15 +138,15 @@ def calculate_total(items):
     
     Be concise and factual.
     """
-    
+
     understanding = call_llm(understand_prompt)
     print(f"\n✅ Understanding:\n{understanding}")
-    
+
     # Step 2: Identify issues
     print("\n" + "─" * 60)
     print("🔗 STEP 2: Identify Issues")
     print("─" * 60)
-    
+
     issues_prompt = f"""
     Based on this code and understanding:
     
@@ -158,15 +158,15 @@ def calculate_total(items):
     
     Identify potential issues, edge cases, or improvements needed.
     """
-    
+
     issues = call_llm(issues_prompt)
     print(f"\n✅ Issues Found:\n{issues}")
-    
+
     # Step 3: Generate improved version
     print("\n" + "─" * 60)
     print("🔗 STEP 3: Generate Improved Code")
     print("─" * 60)
-    
+
     improve_prompt = f"""
     Given these identified issues:
     
@@ -177,10 +177,10 @@ def calculate_total(items):
     Original code:
     {code_snippet}
     """
-    
+
     improved_code = call_llm(improve_prompt)
     print(f"\n✅ Improved Code:\n{improved_code}")
-    
+
     print("\n" + "=" * 60)
     print("✨ CODE IMPROVEMENT CHAIN COMPLETE")
     print("=" * 60)
@@ -191,16 +191,15 @@ if __name__ == "__main__":
         # Run both examples
         simple_chain_example()
         coding_task_chain_example()
-        
+
         print("\n\n💡 Key Lessons:")
         print("1. Each step focuses on ONE specific task")
         print("2. Output of step N becomes input to step N+1")
         print("3. Context accumulates through the chain")
         print("4. Errors are easier to debug (know which step failed)")
         print("5. Steps can be modified independently")
-        
+
     except Exception as e:
         print(f"\n❌ Error: {e}")
         print("\n💡 Make sure OPENAI_API_KEY is set:")
         print("   export OPENAI_API_KEY='your-key-here'")
-

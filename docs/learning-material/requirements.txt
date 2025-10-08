@@ -1,0 +1,19 @@
+# Python Dependencies for Codex Agentic Patterns
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+openai>=1.0.0
+
+# Async HTTP client (for Pattern 19: Inter-Agent Communication)
+aiohttp>=3.9.0
+
+# System metrics (for Pattern 20: Evaluation and Monitoring)
+psutil>=5.9.0
+
+# Optional: For better async support
+asyncio-mqtt>=0.16.0  # If you want to extend with MQTT
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0

@@ -215,12 +215,13 @@ See the example files:
 - **Textbook**: Chapter 5 - Tool Use
 - **OpenAI Function Calling**: https://platform.openai.com/docs/guides/function-calling
 
-## 🔗 Related Patterns
+## 🔗 See Also
 
-- **Pattern 2: Routing** - Routes to appropriate tools
-- **Pattern 10: MCP** - Protocol for tool integration
-- **Pattern 13: Human-in-the-Loop** - Approvals for tools
-- **Pattern 18: Guardrails** - Safety for tool execution
+- **[Pattern 1: Prompt Chaining](../01-prompt-chaining/README.md)** - Tools can be steps in chains
+- **[Pattern 2: Routing](../02-routing/README.md)** - Routes to appropriate tools
+- **[Pattern 3: Parallelization](../03-parallelization/README.md)** - Parallel tool execution
+- **[Pattern 10: MCP Integration](../10-mcp-integration/README.md)** - Protocol for tool integration
+- **[Pattern 13: Human-in-the-Loop](../13-human-in-the-loop/README.md)** - Approvals for tools
 
 ---
 

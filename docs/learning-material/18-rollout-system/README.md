@@ -198,4 +198,4 @@ Key features:
 
 ---
 
-**Next**: [Complete Agent Example →](../complete-agent-example/README.md)
+**Next**: [Pattern 19: Inter-Agent Communication →](../19-inter-agent-communication/README.md)

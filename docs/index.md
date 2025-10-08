@@ -1,38 +1,63 @@
 # Codex Agentic Patterns
 
-Welcome to the documentation site for Codex Agentic Patterns!
+Learn to build production AI agents through real-world patterns extracted from OpenAI Codex CLI.
 
-This site contains the complete learning materials for building production-ready AI agents through real-world patterns extracted from OpenAI's Codex CLI.
+## Chapters
 
-## 🚀 Quick Navigation
+**[Chapter 1 - Prompt Chaining](./learning-material/01-prompt-chaining/README.md)**  
+Breaking complex tasks into sequential, manageable steps
 
-- **[Start Here](learning-material/00-READ-ME-FIRST/)** - Your entry point to learning agentic patterns
-- **[Quick Start](learning-material/QUICKSTART/)** - Get up and running quickly  
-- **[Complete Index](learning-material/INDEX/)** - Navigate all learning materials
-- **[Exercises](learning-material/EXERCISES/)** - Hands-on practice
+**[Chapter 2 - Routing](./learning-material/02-routing/README.md)**  
+Dynamically directing workflow based on intent and context
 
-## 📖 About This Resource
+**[Chapter 3 - Parallelization](./learning-material/03-parallelization/README.md)**  
+Executing independent operations concurrently for better performance
 
-Codex Agentic Patterns teaches you to build intelligent AI agents by studying **real production code** from OpenAI's Codex CLI, rather than toy examples.
+**[Chapter 4 - Tool Use](./learning-material/05-tool-use/README.md)**  
+Extending agent capabilities through external system integration
 
-### 🎯 What You'll Learn
+**[Chapter 5 - Planning](./learning-material/06-planning/README.md)**  
+Goal decomposition and step-by-step execution strategies
 
-- **21 Agentic Design Patterns** with complete coverage
-- **8 Fully Implemented Patterns** with runnable Python code  
-- **Production-Grade Examples** with proper error handling
-- **Multi-Turn Conversations** and complex agent workflows
-- **Tool Integration** with external systems
-- **Human-in-the-Loop** approval and oversight patterns
+**[Chapter 6 - Reflection](./learning-material/07-reflection/README.md)**  
+Self-assessment and iterative improvement patterns
 
-### 📚 Attribution
+**[Chapter 7 - Memory Management](./learning-material/08-memory-management/README.md)**  
+Conversation persistence and state handling
 
-This work builds upon:
+**[Chapter 8 - MCP Integration](./learning-material/10-mcp-integration/README.md)**  
+Model Context Protocol for extensible tool systems
 
-- **[Agentic Design Patterns Complete](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?pli=1&tab=t.0#heading=h.pxcur8v2qagu)** - The foundational textbook
-- **[OpenAI Codex CLI](https://github.com/openai/codex)** - Production Rust implementation  
-- **[Cursor](https://cursor.sh/)** - AI-powered development environment
+**[Chapter 9 - Exception Handling](./learning-material/12-exception-handling/README.md)**  
+Retry logic and graceful error recovery
 
-## 🚀 Get Started
+**[Chapter 10 - Human-in-the-Loop](./learning-material/13-human-in-the-loop/README.md)**  
+Approval workflows and user control mechanisms
 
-Ready to learn? Head to the **[learning materials](learning-material/00-READ-ME-FIRST/)** to begin your journey!
-<!-- Trigger rebuild -->
+**[Chapter 11 - Knowledge Retrieval](./learning-material/14-knowledge-retrieval/README.md)**  
+RAG systems and information retrieval patterns
+
+**[Chapter 12 - Reasoning](./learning-material/15-reasoning/README.md)**  
+Advanced reasoning and chain-of-thought techniques
+
+**[Chapter 13 - Sandbox Escalation](./learning-material/16-sandbox-escalation/README.md)**  
+Multi-stage execution with security and retry mechanisms
+
+**[Chapter 14 - Turn Diff Tracking](./learning-material/17-turn-diff-tracking/README.md)**  
+Git-style change tracking across agent turns
+
+**[Chapter 15 - Rollout System](./learning-material/18-rollout-system/README.md)**  
+Session recording, replay, and debugging workflows
+
+**[Chapter 16 - Inter-Agent Communication](./learning-material/19-inter-agent-communication/README.md)**  
+Agent-to-agent messaging and coordination patterns
+
+**[Chapter 17 - Evaluation & Monitoring](./learning-material/20-evaluation-monitoring/README.md)**  
+Metrics collection, performance tracking, and observability
+
+**[Complete Agent Example](./learning-material/complete-agent-example/README.md)**  
+Production-ready implementation combining multiple patterns
+
+---
+
+*Grounded in OpenAI Codex CLI • Built with Cursor*

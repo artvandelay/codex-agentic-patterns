@@ -140,11 +140,12 @@ See the example files:
 - **Textbook**: Chapter 2 - Routing
 - **LangGraph Routing**: https://langchain-ai.github.io/langgraph/
 
-## 🔗 Related Patterns
+## 🔗 See Also
 
-- **Pattern 1: Prompt Chaining** - Routing decides which chain
-- **Pattern 5: Tool Use** - Routes to appropriate tools
-- **Pattern 7: Multi-Agent** - Routes between agents
+- **[Pattern 1: Prompt Chaining](../01-prompt-chaining/README.md)** - Routing decides which chain
+- **[Pattern 3: Parallelization](../03-parallelization/README.md)** - Router decides what runs parallel
+- **[Pattern 5: Tool Use](../05-tool-use/README.md)** - Routes to appropriate tools
+- **[Pattern 10: MCP Integration](../10-mcp-integration/README.md)** - MCP tool routing
 
 ---
 

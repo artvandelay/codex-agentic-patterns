@@ -119,41 +119,24 @@ validation:
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - "📖 Start Here": learning-material/00-READ-ME-FIRST.md
-    - "🎓 Learning Guide": learning-material/START_HERE.md
-    - "⚡ Quick Start": learning-material/QUICKSTART.md
-    - "📚 Complete Index": learning-material/INDEX.md
-    - "🎯 Exercises": learning-material/EXERCISES.md
-  - Fully Implemented Patterns:
-    - "Pattern 1: Prompt Chaining": learning-material/01-prompt-chaining/README.md
-    - "Pattern 2: Routing": learning-material/02-routing/README.md
-    - "Pattern 3: Parallelization": learning-material/03-parallelization/README.md
-    - "Pattern 5: Tool Use": learning-material/05-tool-use/README.md
-  - Advanced Production Patterns:
-    - "Pattern 16: Sandbox Escalation": learning-material/16-sandbox-escalation/README.md
-    - "Pattern 17: Turn Diff Tracking": learning-material/17-turn-diff-tracking/README.md
-    - "Pattern 18: Rollout System": learning-material/18-rollout-system/README.md
-  - Pattern Analysis:
-    - "Pattern 6: Planning": learning-material/06-planning/README.md
-    - "Pattern 7: Reflection": learning-material/07-reflection/README.md
-    - "Pattern 8: Memory Management": learning-material/08-memory-management/README.md
-    - "Pattern 10: MCP Integration": learning-material/10-mcp-integration/README.md
-    - "Pattern 12: Exception Handling": learning-material/12-exception-handling/README.md
-    - "Pattern 13: Human-in-the-Loop": learning-material/13-human-in-the-loop/README.md
-    - "Pattern 14: Knowledge Retrieval": learning-material/14-knowledge-retrieval/README.md
-    - "Pattern 15: Reasoning": learning-material/15-reasoning/README.md
-    - "Pattern 19: Inter-Agent Communication": learning-material/19-inter-agent-communication/README.md
-    - "Pattern 20: Evaluation and Monitoring": learning-material/20-evaluation-monitoring/README.md
-  - Complete Agent:
-    - "🏆 Complete Agent": learning-material/complete-agent-example/README.md
-  - Analysis & Summary:
-    - "📊 Codex Patterns Summary": learning-material/CODEX_PATTERNS_SUMMARY.md
-    - "📁 Directory Structure": learning-material/STRUCTURE.md
-    - "📋 Final Summary": learning-material/FINAL_SUMMARY.md
-    - "✅ Completion Report": learning-material/COMPLETION_REPORT.md
-    - "Exercises": learning-material/EXERCISES.md
-    - "Module Overview": learning-material/README.md
+  - Chapter 1 - Prompt Chaining: learning-material/01-prompt-chaining/README.md
+  - Chapter 2 - Routing: learning-material/02-routing/README.md
+  - Chapter 3 - Parallelization: learning-material/03-parallelization/README.md
+  - Chapter 4 - Tool Use: learning-material/05-tool-use/README.md
+  - Chapter 5 - Planning: learning-material/06-planning/README.md
+  - Chapter 6 - Reflection: learning-material/07-reflection/README.md
+  - Chapter 7 - Memory Management: learning-material/08-memory-management/README.md
+  - Chapter 8 - MCP Integration: learning-material/10-mcp-integration/README.md
+  - Chapter 9 - Exception Handling: learning-material/12-exception-handling/README.md
+  - Chapter 10 - Human-in-the-Loop: learning-material/13-human-in-the-loop/README.md
+  - Chapter 11 - Knowledge Retrieval: learning-material/14-knowledge-retrieval/README.md
+  - Chapter 12 - Reasoning: learning-material/15-reasoning/README.md
+  - Chapter 13 - Sandbox Escalation: learning-material/16-sandbox-escalation/README.md
+  - Chapter 14 - Turn Diff Tracking: learning-material/17-turn-diff-tracking/README.md
+  - Chapter 15 - Rollout System: learning-material/18-rollout-system/README.md
+  - Chapter 16 - Inter-Agent Communication: learning-material/19-inter-agent-communication/README.md
+  - Chapter 17 - Evaluation & Monitoring: learning-material/20-evaluation-monitoring/README.md
+  - Complete Agent Example: learning-material/complete-agent-example/README.md
 
 extra:
   homepage: https://artvandelay.github.io/codex-agentic-patterns/
