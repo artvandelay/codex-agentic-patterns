@@ -119,6 +119,7 @@ validation:
 
 nav:
   - Home: index.md
+  - Context: context.md
   - Chapter 1 - Prompt Chaining: learning-material/01-prompt-chaining/README.md
   - Chapter 2 - Routing: learning-material/02-routing/README.md
   - Chapter 3 - Parallelization: learning-material/03-parallelization/README.md
