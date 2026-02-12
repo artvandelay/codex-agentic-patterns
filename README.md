@@ -6,7 +6,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)](https://openai.com/)
 [![Documentation](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://artvandelay.github.io/codex-agentic-patterns/)
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/artvandelay/codex-agentic-patterns)
 ---
 
 ## 🌐 **[📖 Read the Interactive Documentation →](https://artvandelay.github.io/codex-agentic-patterns/)**
