@@ -1,5 +1,7 @@
 # 🤖 Codex Agentic Patterns
 
+> **🚨 NEW: Check out the successor to this project! [Agentic Design Patterns in Production](https://github.com/artvandelay/agentic-design-patterns-in-production) — extracting patterns from the 500K-line Claude Code source leak.**
+
 > **Learn to build production-ready AI agents through real-world patterns extracted from OpenAI's Codex CLI**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
